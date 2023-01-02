@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Swiper from 'swiper/bundle';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-// import styles bundle
-import 'swiper/css/bundle';
+// Import Swiper styles
+import 'swiper/css';
 
 class Testimonials extends Component {
     render() {
