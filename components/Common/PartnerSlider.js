@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper";
+import Swiper from 'swiper/bundle';
+
+// import styles bundle
+import 'swiper/css/bundle';
 
 class PartnerSlider extends Component {
     render() {
