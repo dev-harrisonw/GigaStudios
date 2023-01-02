@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "Swiper/react";
+import { Navigation, Autoplay } from "Swiper";
 
 class MainBanner extends Component {
     render() {

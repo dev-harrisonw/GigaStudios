@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "Swiper/react";
+import { Pagination, Autoplay } from "Swiper";
 
 class CaseStudies extends Component {
     render() {

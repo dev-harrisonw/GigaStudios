@@ -3,8 +3,8 @@ import 'animate.css'
 import '../styles/boxicons.min.css';
 import '../styles/flaticon.css';
 import 'react-accessible-accordion/dist/fancy-example.css';
-import "swiper/css";
-import "swiper/css/bundle";
+import "Swiper/css";
+import "Swiper/css/bundle";
 
 // Global styles
 import '../styles/style.css';

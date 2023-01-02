@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "Swiper/react";
+import { Navigation, Autoplay } from "Swiper";
  
 class PartnerSliderTwo extends Component {
     render() {
