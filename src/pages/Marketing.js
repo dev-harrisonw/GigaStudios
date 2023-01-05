@@ -17,7 +17,7 @@ import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 
 
-const GigaStudios = () => {
+const Marketing = () => {
     return (
         <>
             <SEO title="Home" />
