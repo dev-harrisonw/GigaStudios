@@ -35,7 +35,7 @@ const AdvancePricingOne = () => {
                                     <ul className="plan-offer-list">
                                         <li><FiCheck /> 5 PPC Campaigns</li>
                                         <li><FiCheck /> Digital Marketing</li>
-                                        <li><FiCheck />  Marketing Agency</li>
+                                        <li><FiCheck />  Development Studio</li>
                                         <li><FiCheck />  Seo Friendly</li>
                                     </ul>
                                 </div>
@@ -44,7 +44,7 @@ const AdvancePricingOne = () => {
                                     <ul className="plan-offer-list">
                                         <li><FiCheck /> 5 PPC Campaigns</li>
                                         <li><FiCheck /> Digital Marketing</li>
-                                        <li><FiCheck />  Marketing Agency</li>
+                                        <li><FiCheck />  Development Studio</li>
                                         <li><FiCheck />  Seo Friendly</li>
                                         <li><FiCheck />  App Development</li>
                                         <li><FiCheck />  Social Development</li>

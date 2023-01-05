@@ -17,10 +17,10 @@ import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 
 
-const Marketing = () => {
+const GigaStudios = () => {
     return (
         <>
-            <SEO title="Marketing" />
+            <SEO title="Home" />
             <main className="page-wrapper">
                 
                 <HeaderTopBar />
@@ -33,7 +33,7 @@ const Marketing = () => {
                         <div className="row">
                             <div className="col-lg-8 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
-                                    <h1 className="title theme-gradient display-two">Marketing Agency <br /> For {" "}
+                                    <h1 className="title theme-gradient display-two">Development Studio <br /> For {" "}
                                         <Typed
                                             strings={[
                                                 "Freelancer.",
@@ -98,7 +98,7 @@ const Marketing = () => {
                                     textAlign = "text-center"
                                     radiusRounded = ""
                                     subtitle = "You can acquire all."
-                                    title = "Acquire new customers with Doob."
+                                    title = "Acquire new customers with GigaStudios."
                                     description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                 />
                             </div>

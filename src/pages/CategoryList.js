@@ -17,7 +17,7 @@ const CategoryList = ({match: {params: {slug}}}) => {
 
     return (
         <>
-            <SEO title="Blog Category List || Doob" />
+            <SEO title="Blog Category List || GigaStudios" />
             <Layout>
                 <BreadcrumbOne 
                     title={categoryTitle}

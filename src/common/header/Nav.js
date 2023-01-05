@@ -13,7 +13,7 @@ const Nav = () => {
                     <li><Link to="/digital-agency">Digital Agency</Link></li>
                     <li><Link to="/finance">Finance</Link></li>
                     <li><Link to="/company">Company</Link></li>
-                    <li><Link to="/marketing">Marketing Agency</Link></li>
+                    <li><Link to="/marketing">Development Studio</Link></li>
                     <li><Link to="/travel-agency">Travel Agency</Link></li>
                     <li><Link to="/consulting">Consulting</Link></li>
                     <li><Link to="/seo-agency">SEO Agency</Link></li>

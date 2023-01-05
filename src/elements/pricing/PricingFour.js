@@ -24,7 +24,7 @@ const PricingFour = () => {
                             <ul className="list-style--1">
                                 <li><FiCheck /> 5 PPC Campaigns</li>
                                 <li><FiCheck /> Digital Marketing</li>
-                                <li><FiCheck /> Marketing Agency</li>
+                                <li><FiCheck /> Development Studio</li>
                                 <li><FiCheck /> Seo Friendly</li>
                                 <li><FiCheck /> UI/UX designs</li>
                             </ul>
@@ -87,7 +87,7 @@ const PricingFour = () => {
                             <ul className="list-style--1">
                                 <li><FiCheck /> 50 PPC Campaigns</li>
                                 <li><FiCheck /> SEO Marketing</li>
-                                <li><FiCheck /> Marketing Agency</li>
+                                <li><FiCheck /> Development Studio</li>
                                 <li><FiCheck /> Seo Friendly</li>
                                 <li><FiCheck /> Application Manage</li>
                             </ul>
@@ -118,7 +118,7 @@ const PricingFour = () => {
                             <ul className="list-style--1">
                                 <li><FiCheck /> 50 PPC Campaigns</li>
                                 <li><FiCheck /> SEO Marketing</li>
-                                <li><FiCheck /> Marketing Agency</li>
+                                <li><FiCheck /> Development Studio</li>
                                 <li><FiCheck /> Seo Friendly</li>
                                 <li><FiCheck /> Application Manage</li>
                             </ul>
