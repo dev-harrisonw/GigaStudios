@@ -18,7 +18,7 @@ const AccordionOne = ({customStyle}) => {
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                    How can I run GigaStudios react template?
+                    How can I run GigaStudios ?
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">

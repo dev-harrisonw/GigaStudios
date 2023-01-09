@@ -46,9 +46,9 @@ const Marketing = () => {
                                             loop
                                         />
                                     </h1>
-                                    <p className="description">We help our clients succeed by creating stunning digital experiences, at a fraction of the price of our competition..</p>
+                                    <p className="description">We help our clients succeed by creating stunning digital experiences, at a fraction of the price of our competition.</p>
                                     <div className="button-group">
-                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="#">New Customer <i className="icon"><FiArrowRight /></i></Link>
+                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Previous Work <i className="icon"><FiArrowRight /></i></Link>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>

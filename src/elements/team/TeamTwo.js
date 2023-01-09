@@ -84,13 +84,13 @@ const TeamTwo = ({column , teamStyle}) => {
                         <div className={`rn-team ${teamStyle}`}>
                             <div className="inner">
                                 <figure className="thumbnail">
-                                    <img src={`./images/team/${data.image}.jpg`} alt="Corporate React Template" />
+                                    <img src={`./images/team/${data.image}.jpg`} alt="Corporate " />
                                 </figure>
                                 <figcaption className="content">
                                     <h2 className="title">{data.name}</h2>
                                     <h6 className="subtitle theme-gradient">{data.designation}</h6>
                                     <span className="team-form">
-                                        <img src="./images/team/location.svg" alt="Corporate React Template" />
+                                        <img src="./images/team/location.svg" alt="Corporate " />
                                         <span className="location">{data.location}</span>
                                     </span>
                                     <p className="description">{data.description}</p>

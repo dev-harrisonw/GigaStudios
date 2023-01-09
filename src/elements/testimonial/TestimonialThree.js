@@ -45,7 +45,7 @@ const TestimonialThree = ({teamStyle}) => {
                                 </div>
                                 <div className="order-1 order-md-2 col-lg-4 col-md-4">
                                     <div className="thumbnail">
-                                        <img className="w-100" src={`./images/testimonial/${data.image}.jpg`} alt="Corporate React Template" />
+                                        <img className="w-100" src={`./images/testimonial/${data.image}.jpg`} alt="Corporate " />
                                     </div>
                                 </div>
                             </div> 

@@ -39,7 +39,7 @@ const TeamThree = ({column , teamStyle}) => {
                         <div className={`rn-team ${teamStyle}`}>
                             <div className="inner">
                                 <figure className="thumbnail">
-                                    <img src={`./images/team/${data.image}.jpg`} alt="Corporate React Template" />
+                                    <img src={`./images/team/${data.image}.jpg`} alt="Corporate " />
                                 </figure>
                                 <figcaption className="content">
                                     <h2 className="title">{data.name}</h2>

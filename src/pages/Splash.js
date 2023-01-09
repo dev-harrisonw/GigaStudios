@@ -380,7 +380,7 @@ const Splash = () => {
                                         <span className="theme-gradient">Business</span> & {" "}
                                         <span className="theme-gradient">Consulting</span>
                                         <br />
-                                        React Template.
+                                        .
                                     </h1>
                                     <p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>
                                     <div className="button-group">
@@ -405,7 +405,7 @@ const Splash = () => {
                                     radiusRounded = ""
                                     subtitle = "All Demo Here"
                                     title = "GigaStudios All Demo."
-                                    description = "We create a business and consulting react template with 60+ elements features. <br /> 19+ demo pages, faster loading and well documentated code."
+                                    description = "We create a business and consulting  with 60+ elements features. <br /> 19+ demo pages, faster loading and well documentated code."
                                 />
                             </div>
                         </div>

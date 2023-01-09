@@ -9,7 +9,7 @@ const TabTwo = () => {
                         <Tabs>
                             <div className="row row--30 align-items-center">
                                 <div className="col-lg-5">
-                                    <img className="radius-small" src='./images/tab/tabs-02.jpg' alt="Corporate React Template" />
+                                    <img className="radius-small" src='./images/tab/tabs-02.jpg' alt="Corporate " />
                                 </div>
                                 <div className="col-lg-7 mt_md--40 mt_sm--40">
                                     <div className="rn-default-tab style-two">

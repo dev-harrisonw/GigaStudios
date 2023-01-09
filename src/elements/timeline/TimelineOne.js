@@ -108,7 +108,7 @@ const TimelineOne = () => {
                                 </div>
                                 <div className="order-1 order-lg-2 col-lg-6">
                                     <div className="thumbnail">
-                                        <img className="w-100" src={`./images/timeline/${data.image}.jpg`} alt="Corporate React Template" />
+                                        <img className="w-100" src={`./images/timeline/${data.image}.jpg`} alt="Corporate " />
                                     </div>
                                 </div>
                             </div>
