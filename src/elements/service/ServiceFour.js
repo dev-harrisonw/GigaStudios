@@ -15,12 +15,12 @@ const ServiceList = [
     },
     {
         icon: '3',
-        title: 'Bespoke Development',
+        title: 'Bespoke',
         description: 'Any thing is possible with our personalized bespoke development services.'
     },
     {
         icon: '4',
-        title: 'Maintenance & Support',
+        title: 'Maintenance',
         description: 'Ensure that your website or application is always running smoothly.'
     },
 ]
