@@ -1,8 +1,8 @@
 {
-  "name": "GigaStudios",
+  "name": "gigastudios",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GigaStudios.rainbowit.net/",
+  "homepage": "https://GigaStudios.co.uk/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
