@@ -55,7 +55,7 @@ const Marketing = () => {
                             </div>
                             <div className="col-lg-4 order-1 order-lg-2">
                                 <div className="thumbnail">
-                                    <img src="./images/banner/hardware.svg" alt="Banner Images" />
+                                    <img src="./images/bg/bg-image-16.jpg-" alt="Banner Images" />
                                 </div>
                             </div>
                         </div>
