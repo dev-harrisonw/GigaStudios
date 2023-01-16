@@ -16,7 +16,7 @@ import BrandTwo from '../elements/brand/BrandTwo';
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 
-import { ReactComponent as MyIcon } from ".../assets/images/hero.svg";
+import { ReactComponent as MyIcon } from "./hero.svg";
 
 
 
@@ -58,7 +58,7 @@ const Marketing = () => {
                             </div>
                             <div className="col-lg-4 order-1 order-lg-2">
                                 <div className="thumbnail">
-                                <MyIcon />
+                                    <MyIcon />
                                 </div>
                             </div>
                         </div>
