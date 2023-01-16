@@ -36,7 +36,7 @@ const Marketing = () => {
                         <div className="row">
                             <div className="col-lg-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
-                                    <h1 className="title theme-gradient display-two">Development <br /> made<br /> {" "}
+                                    <center><h1 className="title theme-gradient display-two">Development <br /> made<br /> {" "}
                                         <Typed
                                             strings={[
                                                 "Effortless.",
@@ -48,7 +48,7 @@ const Marketing = () => {
                                             backDelay={1000}
                                             loop
                                         />
-                                    </h1>
+                                    </h1></center>
                                     <p className="description">We help our clients succeed by creating stunning digital experiences, at a fraction of the price of our competition.</p>
                                     <div className="button-group">
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Previous Work <i className="icon"><FiArrowRight /></i></Link>
