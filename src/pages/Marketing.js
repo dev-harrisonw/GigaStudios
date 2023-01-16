@@ -34,9 +34,9 @@ const Marketing = () => {
                 <div className="slider-area slider-style-1 bg-transparent variation-2 height-750">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-8 order-2 order-lg-1 mt_md--40 mt_sm--40">
+                            <div className="col-lg-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
-                                    <h1 className="title theme-gradient display-two">Development <br /> made {" "}
+                                    <h1 className="title theme-gradient display-two">Development <br /> made<br /> {" "}
                                         <Typed
                                             strings={[
                                                 "Effortless.",
@@ -56,7 +56,7 @@ const Marketing = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 order-1 order-lg-2">
+                            <div className="col-lg-6 order-1 order-lg-2">
                                 <div className="thumbnail">
                                     <MyIcon />
                                 </div>
