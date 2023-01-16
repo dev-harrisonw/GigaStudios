@@ -35,8 +35,8 @@ const Marketing = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
-                                <div className="inner text-start">
-                                    <center><h1 className="title theme-gradient display-two">Development <br /> made<br /> {" "}
+                                <center><div className="inner text-start">
+                                    <h1 className="title theme-gradient display-two">Development <br /> made<br /> {" "}
                                         <Typed
                                             strings={[
                                                 "Effortless.",
@@ -54,7 +54,7 @@ const Marketing = () => {
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Previous Work <i className="icon"><FiArrowRight /></i></Link>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
-                                </div>
+                                </div></center>
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2">
                                 <div className="thumbnail">
