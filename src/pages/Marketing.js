@@ -48,7 +48,7 @@ const Marketing = () => {
                                             backDelay={1000}
                                             loop
                                         />
-                                    </h1></center>
+                                    </h1>
                                     <p className="description">We help our clients succeed by creating stunning digital experiences, at a fraction of the price of our competition.</p>
                                     <div className="button-group">
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Previous Work <i className="icon"><FiArrowRight /></i></Link>
