@@ -16,7 +16,7 @@ import BrandTwo from '../elements/brand/BrandTwo';
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 
-import { ReactComponent as MyIcon } from "./assets/images/hero.svg";
+import { ReactComponent as MyIcon } from ".../assets/images/hero.svg";
 
 
 
