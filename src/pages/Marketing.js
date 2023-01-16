@@ -78,7 +78,7 @@ const Marketing = () => {
                                     radiusRounded = ""
                                     subtitle = "What we can do for you"
                                     title = "Services provide for you."
-                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                    description = "Choose from our innovative digital solutions to elevate your business to the next level."
                                     />
                             </div>
                         </div>
