@@ -12,7 +12,7 @@ import ServiceFour from '../elements/service/ServiceFour';
 import AdvanceTabOne from '../elements/advancetab/AdvanceTabOne';
 import AdvancePricingOne from '../elements/advancePricing/AdvancePricingOne';
 import BrandTwo from '../elements/brand/BrandTwo';
-import PortfolioOne from "../elements/portfolio/PortfolioOne";
+import PortfolioOne from "../elements/portfolio/PortfolioThreeColumn";
 
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
@@ -93,24 +93,24 @@ const Marketing = () => {
 
 
                 <Separator />
-                {/* Start Elements Area  */}
-                <div className="rwt-advance-tab-area rn-section-gap">
+                {/* Start Portfolio Area  */}
+                <div className="rwt-portfolio-area rn-section-gapBottom">
                     <div className="container">
-                        <div className="row mb--40">
+                        <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "You can acquire all."
-                                    title = "Acquire new customers with GigaStudios."
-                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                    subtitle = "Previous Work"
+                                    title = "Check Our Recent Works!"
+                                    description = "Experience our expertise through our portfolio."
                                 />
                             </div>
                         </div>
-                        <AdvanceTabOne />
+                        <PortfolioOne Column="col-lg-4 col-md-6 col-12 mt--30 portfolio"  />
                     </div>
                 </div>
-                {/* End Elements Area  */}
+                {/* End Portfolio Area  */}
 
                 <Separator />
 
@@ -122,9 +122,9 @@ const Marketing = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "Our Pricing Table"
-                                    title = "Advance Pricing Table."
-                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                    subtitle = "Pricing"
+                                    title = "Prices made simple"
+                                    description = "Get the best value for your money with our clear and upfront pricing.<br/>Full transparency, no hidden costs."
                                 />
                             </div>
                         </div>
@@ -138,7 +138,7 @@ const Marketing = () => {
                 {/* End Elements Area  */}
 
                 {/* Start Brand Area  */}
-                {/* <div className="rwt-brand-area rn-section-gapBottom">
+                <div className="rwt-brand-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -157,28 +157,8 @@ const Marketing = () => {
                             </div>
                         </div>
                     </div>
-                </div> */}
-                {/* End Brand Area  */}
-
-                
-                {/* Start Portfolio Area  */}
-                <div className="rwt-portfolio-area rn-section-gapBottom">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Project"
-                                    title = "Check My Recent Works!"
-                                    description = "We provide company and finance service for <br /> startups and company business."
-                                />
-                            </div>
-                        </div>
-                        <PortfolioOne Column="col-lg-4 col-md-6 col-12 mt--30 portfolio"  />
-                    </div>
                 </div>
-                {/* End Portfolio Area  */}
+                {/* End Brand Area  */}
 
                 <FooterThree />
 
