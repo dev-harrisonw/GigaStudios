@@ -7,46 +7,44 @@ const AccordionOne = ({customStyle}) => {
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                    What is GigaStudios ? How does it work?
+                    What is GigaStudios? What do you do?
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body>Welcome to GigaStudios React Creative Agency, React Portfolio and Corporate Multi Purpose Template Built With React JS. NO jQuery!. </Card.Body>
+                    <Card.Body>"GigaStudios offers a full range of services, whether it be website design or app development, to hosting or maintenance. We help businesses achieve their online goals. </Card.Body>
                 </Accordion.Collapse>
             </Card>
 
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                    How can I run GigaStudios ?
+                    What is the process for working with GigaStudios?
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
-                    <Card.Body>You can run GigaStudios easily. First You'll need to have node and npm on your machine. So Please open your command prompt then check your node -v and npm -v Version. Goes To Your your command prompt: then First: npm install
-
-                    At Last: npm run start. By the following way you can be run your project easily.</Card.Body>
+                    <Card.Body>The process for working with GigaStudios typically begins with an initial consultation to understand your business needs and goals. We then create a proposal and project plan, and work closely with you throughout the development process to ensure that the final product meets your expectations. We also provide ongoing maintenance and support services to ensure that your website or application is always running smoothly.</Card.Body>
                 </Accordion.Collapse>
             </Card>
 
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                    How can I get the customer support?
+                    What is the typical timeline for a web development project?
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
-                    <Card.Body>After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com.</Card.Body>
+                    <Card.Body>The timeline for a web development project can vary depending on the complexity of the project and the client's specific requirements. However, in general, a simple website can take anywhere from a few weeks to a couple of months to complete, while a more complex website or application can take several months or even longer. We work with our clients to establish a timeline that meets their needs and budget.</Card.Body>
                 </Accordion.Collapse>
             </Card>
 
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                    Can I get update regularly and For how long do I get updates?
+                    What is included in your maintenance and support services?
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="3">
-                    <Card.Body>Yes, We will get update the Trydo. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.</Card.Body>
+                    <Card.Body>Our maintenance and support services include regular updates to ensure that your website or application is always running smoothly and securely. We also provide troubleshooting and bug fixing, as well as assistance with updating content, adding new features, and integrating with other systems as needed.</Card.Body>
                 </Accordion.Collapse>
             </Card>
 

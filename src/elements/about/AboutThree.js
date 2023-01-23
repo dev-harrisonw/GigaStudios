@@ -18,9 +18,9 @@ const AbouThree = () => {
                         <div className="inner">
                             <div className="section-title">
                                 <h4 className="subtitle">
-                                    <span className="theme-gradient">WORKFLOW INTEGRATION</span>
+                                    <span className="theme-gradient">FAQs</span>
                                 </h4>
-                                <h2 className="title mb--40">Companies Platform.</h2>
+                                <h2 className="title mb--40">Any Questions?</h2>
                             </div>
                             <AccordionOne customStyle="" />
                         </div>
