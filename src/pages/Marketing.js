@@ -83,7 +83,10 @@ const Marketing = () => {
                                     />
                             </div>
                         </div>
-                        <PortfolioThreeColumn/>
+                        <ServiceFour 
+                            serviceStyle = "service__style--1 icon-circle-style with-working-process"
+                            textAlign = "text-center"
+                            />
                     </div>
                 </div>
                 {/* End Service Area  */}
@@ -135,7 +138,7 @@ const Marketing = () => {
                 {/* End Elements Area  */}
 
                 {/* Start Brand Area  */}
-                <div className="rwt-brand-area rn-section-gapBottom">
+                {/* <div className="rwt-brand-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -154,8 +157,28 @@ const Marketing = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area  */}
+
+                
+                {/* Start Portfolio Area  */}
+                <div className="rwt-portfolio-area rn-section-gapBottom">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <SectionTitle
+                                    textAlign = "text-center"
+                                    radiusRounded = ""
+                                    subtitle = "Project"
+                                    title = "Check My Recent Works!"
+                                    description = "We provide company and finance service for <br /> startups and company business."
+                                />
+                            </div>
+                        </div>
+                        <PortfolioOne Column="col-lg-4 col-md-6 col-12 mt--30 portfolio"  />
+                    </div>
+                </div>
+                {/* End Portfolio Area  */}
 
                 <FooterThree />
 
