@@ -12,7 +12,9 @@ import ServiceFour from '../elements/service/ServiceFour';
 import AdvanceTabOne from '../elements/advancetab/AdvanceTabOne';
 import AdvancePricingOne from '../elements/advancePricing/AdvancePricingOne';
 import BrandTwo from '../elements/brand/BrandTwo';
+import AboutThree from '../elements/about/AboutThree';
 import PortfolioOne from "../elements/portfolio/PortfolioOne";
+
 
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
@@ -113,29 +115,8 @@ const Marketing = () => {
                 {/* End Portfolio Area  */}
 
                 <Separator />
-
-                {/* Start Elements Area  */}
-                <div className="rwt-pricingtable-area rn-section-gap">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Pricing"
-                                    title = "Prices made simple"
-                                    description = "Get the best value for your money with our clear and upfront pricing.<br/>Full transparency, no hidden costs."
-                                />
-                            </div>
-                        </div>
-                        <div className="row mt--30">
-                            <div className="col-lg-8 offset-lg-2">
-                                <AdvancePricingOne />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Elements Area  */}
+                <AboutThree />
+                <Separator />
 
                 {/* Start Brand Area  */}
                 <div className="rwt-brand-area rn-section-gapBottom">
