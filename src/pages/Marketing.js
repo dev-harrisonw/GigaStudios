@@ -12,6 +12,7 @@ import ServiceFour from '../elements/service/ServiceFour';
 import AdvanceTabOne from '../elements/advancetab/AdvanceTabOne';
 import AdvancePricingOne from '../elements/advancePricing/AdvancePricingOne';
 import BrandTwo from '../elements/brand/BrandTwo';
+import PortfolioThreeColumn from "../elements/portfolio/PortfolioThreeColumn";
 
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
@@ -82,10 +83,7 @@ const Marketing = () => {
                                     />
                             </div>
                         </div>
-                        <ServiceFour 
-                            serviceStyle = "service__style--1 icon-circle-style with-working-process"
-                            textAlign = "text-center"
-                            />
+                        <PortfolioThreeColumn/>
                     </div>
                 </div>
                 {/* End Service Area  */}
