@@ -12,7 +12,7 @@ import ServiceFour from '../elements/service/ServiceFour';
 import AdvanceTabOne from '../elements/advancetab/AdvanceTabOne';
 import AdvancePricingOne from '../elements/advancePricing/AdvancePricingOne';
 import BrandTwo from '../elements/brand/BrandTwo';
-import PortfolioOne from "../elements/portfolio/PortfolioThreeColumn";
+import PortfolioOne from "../elements/portfolio/PortfolioOne";
 
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
