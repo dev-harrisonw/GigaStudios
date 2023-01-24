@@ -1,8 +1,8 @@
 import React from 'react';
 const callToActionData = {
-    title: "Ready to start creating a standard website?",
-    subtitle: "Finest choice for your home & office",
-    btnText: "View Pricing",
+    title: "Ready to create your digital footprint?",
+    subtitle: "Unleash the power of the web today",
+    btnText: "Enquire Now",
 }
 const CalltoActionSix = () => {
     return (

@@ -127,8 +127,8 @@ const Marketing = () => {
                                     textAlign = "text-center"
                                     radiusRounded = ""
                                     subtitle = "Awesome Clients"
-                                    title = "Join over +10,000 happy clients!"
-                                    description = ""
+                                    title = "Join our growing list of clients!"
+                                    description = "There's a reason so many choose us!"
                                 />
                             </div>
                         </div>
