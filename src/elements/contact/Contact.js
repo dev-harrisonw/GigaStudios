@@ -8,14 +8,8 @@ import ContactOne from "./ContactOne";
 const Contact = () => {
     return (
         <>
-            <SEO title="Contact ||GigaStudios - Development Agency" />
+            <SEO title="Contact || GigaStudios - Development Agency" />
             <Layout>
-                <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
-                    rootUrl="/"
-                    parentUrl="Home"
-                    currentUrl="Contact"
-                />
                 <div className="main-content">
                     {/* Start Contact Area  */}
                     <div className="rwt-contact-area rn-section-gap">
@@ -25,9 +19,9 @@ const Contact = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Contact Form"
-                                        title = "Our Contact Address Here."
-                                        description = ""
+                                        subtitle = "Contact Us"
+                                        title = "Here's how you can get in touch."
+                                        description = "No matter the project size, big or small, we're here to help!"
                                     />
                                 </div>
                             </div>

@@ -10,15 +10,15 @@ const filters = [
     },
     {
       id: 2,
-      text: "design",
+      text: "Website",
     },
     {
       id: 3,
-      text: "art",
+      text: "App",
     },
     {
       id: 4,
-      text: "development",
+      text: "Designs",
     }
 ];
 
