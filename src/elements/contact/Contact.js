@@ -8,7 +8,7 @@ import ContactOne from "./ContactOne";
 const Contact = () => {
     return (
         <>
-            <SEO title="Contact || GigaStudios - React Business  Template" />
+            <SEO title="Contact ||GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

@@ -12,7 +12,7 @@ import Separator from "../separator/Separator";
 const Button = () => {
     return (
         <>
-            <SEO title="Button || GigaStudios - React Business  Template" />
+            <SEO title="Button ||GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                 title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

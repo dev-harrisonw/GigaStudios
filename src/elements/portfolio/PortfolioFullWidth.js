@@ -8,7 +8,7 @@ import PortfolioOne from "./PortfolioOne";
 const PortfolioFullWidth = () => {
     return (
         <>
-            <SEO title="Portfolio Full Width || GigaStudios - React Business  Template" />
+            <SEO title="Portfolio Full Width ||GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

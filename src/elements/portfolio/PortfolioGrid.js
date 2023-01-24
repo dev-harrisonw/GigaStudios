@@ -10,7 +10,7 @@ import PortfolioOne from "./PortfolioOne";
 const PortfolioGrid = () => {
     return (
         <>
-            <SEO title="Portfolio Grid Layout || GigaStudios - React Business  Template" />
+            <SEO title="Portfolio Grid Layout ||GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

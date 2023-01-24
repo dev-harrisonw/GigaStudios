@@ -11,7 +11,7 @@ const Portfolio = () => {
 
     return (
         <>
-            <SEO title="Portfolio || GigaStudios - React Business  Template" />
+            <SEO title="Portfolio ||GigaStudios - Development Agency" />
             <Layout>
 
                 <BreadcrumbOne 

@@ -13,7 +13,7 @@ import CircleProgressTwo from "./CircleProgressTwo";
 const Progressbar = () => {
     return (
         <>
-            <SEO title="Progressbar || GigaStudios - React Business  Template" />
+            <SEO title="Progressbar ||GigaStudios - Development Agency" />
 
             <Layout>
                 <BreadcrumbOne 

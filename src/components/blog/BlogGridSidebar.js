@@ -13,7 +13,7 @@ import SidebarArchive from './sidebar/SidebarArchive';
 const BlogGridSidebar = () => {
     return (
         <>
-            <SEO title="Blog Grid Sidebar || GigaStudios - React Business  Template" />
+            <SEO title="Blog Grid Sidebar ||GigaStudios - Development Agency" />
             
             <Layout>
                 <BreadcrumbOne 
