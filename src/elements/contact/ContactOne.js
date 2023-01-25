@@ -17,7 +17,7 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contact Phone Number</h4>
-                                        <p><a href="tel:+447984980188">+44 7984 980188</a></p>
+                                        <p><a href="tel:+447984980188">+44 7984 980188</a><br/><br/></p>
                                     </div>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@ const ContactOne = () => {
                                     <div className="inner">
                                         <h4 className="title">Our Email Address</h4>
                                         <p><a href="contact@gigastudios.co.uk">contact@gigastudios.co.uk</a></p>
-                                        <p><a href="mailto:example@gmail.com">me@harrisonwarburton.com</a></p>
+                                        <p><a href="mailto:example@gmail.com">me@harrisonwarburton.com</a><br/></p>
                                     </div>
                                 </div>
                             </div>
