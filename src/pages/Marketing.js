@@ -8,7 +8,7 @@ import FooterThree from '../common/footer/FooterThree';
 import Typed from 'react-typed';
 import {Link} from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
-import ServiceFour from '../elements/service/ServiceFour';
+import ServiceFour from '../elements/service/ServiceTwo';
 import AdvanceTabOne from '../elements/advancetab/AdvanceTabOne';
 import AdvancePricingOne from '../elements/advancePricing/AdvancePricingOne';
 import BrandTwo from '../elements/brand/BrandTwo';
@@ -85,9 +85,9 @@ const Marketing = () => {
                                     />
                             </div>
                         </div>
-                        <ServiceFour 
-                            serviceStyle = "service__style--1 icon-circle-style with-working-process"
-                            textAlign = "text-center"
+                        <ServiceTwo 
+                                cardStyle = "card-style-1"
+                                textAlign = "text-start"
                             />
                     </div>
                 </div>
