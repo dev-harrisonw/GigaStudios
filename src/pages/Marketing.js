@@ -8,7 +8,7 @@ import FooterThree from '../common/footer/FooterThree';
 import Typed from 'react-typed';
 import {Link} from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
-import ServiceFour from '../elements/service/ServiceTwo';
+import ServiceTwo from '../elements/service/ServiceTwo';
 import AdvanceTabOne from '../elements/advancetab/AdvanceTabOne';
 import AdvancePricingOne from '../elements/advancePricing/AdvancePricingOne';
 import BrandTwo from '../elements/brand/BrandTwo';
