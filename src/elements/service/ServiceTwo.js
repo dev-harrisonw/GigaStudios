@@ -5,23 +5,23 @@ import ScrollAnimation from "react-animate-on-scroll";
 const ServiceList = [
     {
         image: '/images/service/serviice-01.jpg',
-        title: 'Awarded Design',
-        description: 'There are many variations variats  of passages of Lorem Ipsum available.'
+        title: 'Website Development',
+        description: 'Our team will create a website that meets your business needs and helps you achieve your online goals.'
     },
     {
         image: '/images/service/serviice-02.jpg',
-        title: 'Design & Creative',
-        description: 'Passages there are many variatin Lorem Ipsum available majority suffered.'
+        title: 'App Development',
+        description: 'Transform your app ideas into reality with our custom app development services.'
     },
     {
         image: '/images/service/serviice-03.jpg',
-        title: 'App Development',
-        description: 'Variations There are many of pass ages of Lorem Ipsum available the majority.'
+        title: 'Bespoke Development',
+        description: 'Stand out from the competition with our personalized bespoke development services.'
     },
     {
         image: '/images/service/serviice-04.jpg',
-        title: 'Web Design',
-        description: 'Variations There are many of pass ages of Lorem Ipsum available the majority.'
+        title: 'Maintenance/Support',
+        description: 'Ensure that your website or application is always running smoothly with our comprehensive maintenance and support plans.'
     }
 ]
 const ServiceTwo = ({textAlign, cardStyle}) => {
