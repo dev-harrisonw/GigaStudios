@@ -86,8 +86,8 @@ const Marketing = () => {
                             </div>
                         </div>
                         <ServiceOne 
-                                cardStyle = "card-style-1"
-                                textAlign = "text-start"
+                                serviceStyle = "service__style--1 bg-color-blackest radius mt--25"
+                                textAlign = "text-center"
                             />
                     </div>
                 </div>
