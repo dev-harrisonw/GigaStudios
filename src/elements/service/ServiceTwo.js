@@ -4,24 +4,24 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const ServiceList = [
     {
-        image: '/images/service/serviice-01.jpg',
+        image: '/images/service/website.png',
         title: 'Website Development',
         description: 'Our team will create a website that meets your business needs and helps you achieve your online goals.'
     },
     {
-        image: '/images/service/serviice-02.jpg',
+        image: '/images/service/app.png',
         title: 'App Development',
         description: 'Transform your app ideas into reality with our custom app development services.<br/><br/>'
     },
     {
-        image: '/images/service/serviice-03.jpg',
+        image: '/images/service/bespoke.png',
         title: 'Bespoke Development',
         description: 'Stand out from the competition with our personalized bespoke development services.<br/>'
     },
     {
-        image: '/images/service/serviice-04.jpg',
+        image: '/images/service/maintenance.png',
         title: 'Maintenance/Support',
-        description: 'Ensure that your website or application is always running smoothly with our comprehensive maintenance and support plans.'
+        description: 'Ensure that your website or application is always running smoothly with our comprehensive maintenance.'
     }
 ]
 const ServiceTwo = ({textAlign, cardStyle}) => {
