@@ -1,22 +1,27 @@
 import React from 'react';
-import { FiActivity, FiCast, FiMap } from "react-icons/fi";
+import { FiGlobe, AiOutlineMobile, BiBrain, ImCogs } from "react-icons/fi";
 import {Link} from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const ServiceList = [
     {
-        icon: <FiActivity />,
+        icon: <FiGlobe />,
         title: 'Awarded Design',
         description: 'There are many variations variations  of passages of Lorem Ipsum available, but the majority have suffered.'
     },
     {
-        icon: <FiCast />,
+        icon: <AiOutlineMobile />,
         title: 'Design & Creative',
         description: 'Passages there are many variations variations  of of Lorem Ipsum available, but the majority have suffered.'
     },
     {
-        icon: <FiMap />,
+        icon: <BiBrain />,
         title: 'App Development',
+        description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+    },
+    {
+        icon: <ImCogs />,
+        title: 'Maintenace/Support',
         description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
     },
 ]
@@ -25,7 +30,7 @@ const ServiceOne = ({textAlign, serviceStyle}) => {
     return (
         <div className="row row--15 service-wrapper">
               {ServiceList.map( (val , i) => (
-                <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
+                <div className="col-lg-2 col-md-6 col-sm-6 col-12" key={i}>
                     <ScrollAnimation 
                     animateIn="fadeInUp"
                     animateOut="fadeInOut"
