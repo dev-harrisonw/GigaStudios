@@ -1,5 +1,8 @@
 import React from 'react';
-import { FiGlobe, AiOutlineMobile, BiBrain, ImCogs } from "react-icons/fi";
+import { FiGlobe } from "react-icons/fi";
+import { AiOutlineMobile } from "react-icons/ai";
+import { BiBrain } from "react-icons/bi";
+import { ImCogs } from "react-icons/im";
 import {Link} from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -7,22 +10,22 @@ const ServiceList = [
     {
         icon: <FiGlobe />,
         title: 'Awarded Design',
-        description: 'There are many variations variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: 'Our team will create a website that meets your business needs and helps you achieve your online goals.'
     },
     {
         icon: <AiOutlineMobile />,
         title: 'Design & Creative',
-        description: 'Passages there are many variations variations  of of Lorem Ipsum available, but the majority have suffered.'
+        description: 'Transform your app ideas into reality with our custom app development services.<br/><br/>'
     },
     {
         icon: <BiBrain />,
         title: 'App Development',
-        description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: 'Stand out from the competition with our personalized bespoke development services.<br/>'
     },
     {
         icon: <ImCogs />,
         title: 'Maintenace/Support',
-        description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        description: 'Ensure that your website or application is always running smoothly with our comprehensive maintenance.'
     },
 ]
 
