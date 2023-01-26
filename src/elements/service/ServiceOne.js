@@ -9,18 +9,18 @@ import ScrollAnimation from "react-animate-on-scroll";
 const ServiceList = [
     {
         icon: <FiGlobe />,
-        title: 'Awarded Design',
+        title: 'Website Development',
         description: 'Our team will create a website that meets your business needs and helps you achieve your online goals.'
     },
     {
         icon: <AiOutlineMobile />,
-        title: 'Design & Creative',
-        description: 'Transform your app ideas into reality with our custom app development services.<br/><br/>'
+        title: 'App Development',
+        description: 'Transform your app ideas into reality with our custom app development services.<br/><br/><br/>'
     },
     {
         icon: <BiBrain />,
-        title: 'App Development',
-        description: 'Stand out from the competition with our personalized bespoke development services.<br/>'
+        title: 'Bespoke',
+        description: 'Stand out from the competition with our personalized bespoke development services.<br/><br/>'
     },
     {
         icon: <ImCogs />,
