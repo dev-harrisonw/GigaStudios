@@ -85,7 +85,7 @@ const Marketing = () => {
                                     />
                             </div>
                         </div>
-                        <ServiceTwo 
+                        <ServiceOne 
                                 cardStyle = "card-style-1"
                                 textAlign = "text-start"
                             />
