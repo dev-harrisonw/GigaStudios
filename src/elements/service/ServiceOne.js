@@ -33,7 +33,7 @@ const ServiceOne = ({textAlign, serviceStyle}) => {
     return (
         <div className="row row--15 service-wrapper">
               {ServiceList.map( (val , i) => (
-                <div className="col-lg-2 col-md-6 col-sm-6 col-12" key={i}>
+                <div className="col-lg-3 col-md-6 col-sm-6 col-12" key={i}>
                     <ScrollAnimation 
                     animateIn="fadeInUp"
                     animateOut="fadeInOut"
