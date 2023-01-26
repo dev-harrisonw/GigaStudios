@@ -18,7 +18,7 @@ const filters = [
     },
     {
       id: 4,
-      text: "Designs",
+      text: "Bespoke",
     }
 ];
 

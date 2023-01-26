@@ -10,7 +10,7 @@ const ServiceList = [
     {
         icon: <FiGlobe />,
         title: 'Website Development',
-        description: 'Our team will create a website that meets your business needs and helps you achieve your online goals.'
+        description: 'Our team will create a website that meets your business needs and helps you achieve your goals.'
     },
     {
         icon: <AiOutlineMobile />,
