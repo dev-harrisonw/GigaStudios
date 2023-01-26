@@ -11,12 +11,12 @@ const ServiceList = [
     {
         image: '/images/service/serviice-02.jpg',
         title: 'App Development',
-        description: 'Transform your app ideas into reality with our custom app development services.'
+        description: 'Transform your app ideas into reality with our custom app development services.<br/><br/>'
     },
     {
         image: '/images/service/serviice-03.jpg',
         title: 'Bespoke Development',
-        description: 'Stand out from the competition with our personalized bespoke development services.'
+        description: 'Stand out from the competition with our personalized bespoke development services.<br/>'
     },
     {
         image: '/images/service/serviice-04.jpg',
