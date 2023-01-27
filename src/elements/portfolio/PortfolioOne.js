@@ -19,6 +19,10 @@ const filters = [
     {
       id: 4,
       text: "Bespoke",
+    },
+    {
+      id: 5,
+      text: "Maintenance",
     }
 ];
 
