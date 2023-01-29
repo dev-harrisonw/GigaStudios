@@ -44,11 +44,11 @@ const AboutUs = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title">Empowering Your Business with Cutting-Edge Technology: Welcome to <h3 class="title display-one theme-gradient">GigaStudios</h3></h3>
+                                    <h3 className="title">Empowering Your Business with Cutting-Edge Technology:<br />Welcome to <h3 class="title theme-gradient">GigaStudios</h3></h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <p className="mb--10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
+                                <p className="mb--10">GigaStudios is a web development and SaaS company that aims to deliver exceptional services to businesses of all sizes. Our team of experts are dedicated to delivering high-quality and innovative solutions that meet our clients' unique needs and goals. The company values are to make development effortless, accessible, and affordable; for our clients to create stunning digital experiences. At GigaStudios we help businesses reach the next level through cutting-edge technology.</p>
                             </div>
                         </div>
                     </div>
