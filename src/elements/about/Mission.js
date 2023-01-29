@@ -14,9 +14,9 @@ const mission = () => {
                             <h2 className="title">Unique Mission <br /> {" "}
                                 <Typed className="theme-gradient"
                                     strings={[
-                                        "Consulting.",
-                                        "Vission.",
-                                        "Agency.",
+                                        "Consult.",
+                                        "Innovate.",
+                                        "Deliver.",
                                     ]}
                                     typeSpeed={80}
                                     backSpeed={5}

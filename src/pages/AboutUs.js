@@ -29,7 +29,7 @@ const AboutUs = () => {
                                     <div>
                                         <h3 className="rn-sub-badge"><span className="theme-gradient">Our Company's About Details.</span></h3>
                                     </div>
-                                    <h1 className="title display-one">We are a Corporate <br /> Business Agency.</h1>
+                                    <h1 className="title display-one">We are a<br />Development Studio<br />on a <p class="theme-gradient">mission.</p></h1>
                                 </div>
                             </div>
                         </div>
