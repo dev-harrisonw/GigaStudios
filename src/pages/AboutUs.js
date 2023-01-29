@@ -44,7 +44,7 @@ const AboutUs = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title">Empowering Your Business with Cutting-Edge Technology:<br />Welcome to <h3 style="display:inline;" class="title theme-gradient">GigaStudios</h3></h3>
+                                    <h3 className="title">Empowering Your Business with Cutting-Edge Technology:<br />Welcome to <h3 className="title" class="title theme-gradient">GigaStudios</h3></h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
