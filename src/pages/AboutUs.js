@@ -1,6 +1,6 @@
 import React from 'react'
 import SEO from "../common/SEO";
-import HeaderTopNews from '../common/header/HeaderTopNews';
+import HeaderTopBar from '../common/header/HeaderTopBar';
 import HeaderOne from '../common/header/HeaderOne';
 import FooterFour from '../common/footer/FooterFour';
 import BrandThree from '../elements/brand/BrandThree';
@@ -17,7 +17,7 @@ const AboutUs = () => {
         <>
             <SEO title="About Us" />
             <main className="page-wrapper">
-                <HeaderTopNews />
+                <HeaderTopBar/>
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
 
                 {/* Start Slider Area  */}
@@ -44,7 +44,7 @@ const AboutUs = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title">We are creative digital agency working for our company brands.</h3>
+                                    <h3 className="title">Empowering Your Business with Cutting-Edge Technology: Welcome to <h3 class="title display-one theme-gradient">GigaStudios</h3></h3></h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
