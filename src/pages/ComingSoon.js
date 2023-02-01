@@ -10,7 +10,7 @@ const ComingSoon = () => {
                     <div className="row align-item-center">
                         <div className="col-lg-12">
                             <div className="error-inner">
-                                <h1 className="title" class="title theme-gradient">503</h1>
+                                <h1 class="theme-gradient">503</h1>
                                 <h2 className="title">Coming Soon...</h2>
                                 <p className="description">GigaStudio's blog will be coming to screens near you!</p>
                                 <form action="#" className="blog-search">
