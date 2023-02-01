@@ -80,7 +80,7 @@ const EventConference = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "What we can do for you"
+                                    subtitle = "Our Services"
                                     title = "Main Goal Our Event Conference."
                                     description = ""
                                 />

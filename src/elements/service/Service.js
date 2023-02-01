@@ -34,8 +34,8 @@ const Service = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "What we can do for you"
-                                        title = "Services provide for you."
+                                        subtitle = "Our Services"
+                                        title = "What we can do for you."
                                         description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                      />
                                 </div>
@@ -59,8 +59,8 @@ const Service = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "What we can do for you"
-                                        title = "Services provide for you."
+                                        subtitle = "Our Services"
+                                        title = "What we can do for you."
                                         description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                      />
                                 </div>
@@ -83,8 +83,8 @@ const Service = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "What we can do for you"
-                                        title = "Services provide for you."
+                                        subtitle = "Our Services"
+                                        title = "What we can do for you."
                                         description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                      />
                                 </div>
@@ -107,8 +107,8 @@ const Service = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "What we can do for you"
-                                        title = "Services provide for you."
+                                        subtitle = "Our Services"
+                                        title = "What we can do for you."
                                         description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                      />
                                 </div>
@@ -132,8 +132,8 @@ const Service = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "What we can do for you"
-                                        title = "Services provide for you."
+                                        subtitle = "Our Services"
+                                        title = "What we can do for you."
                                         description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                      />
                                 </div>
@@ -158,8 +158,8 @@ const Service = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "What we can do for you"
-                                        title = "Services provide for you."
+                                        subtitle = "Our Services"
+                                        title = "What we can do for you."
                                         description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                      />
                                 </div>
@@ -183,8 +183,8 @@ const Service = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "What we can do for you"
-                                        title = "Services provide for you."
+                                        subtitle = "Our Services"
+                                        title = "What we can do for you."
                                         description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                      />
                                 </div>

@@ -79,8 +79,8 @@ const Marketing = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "What we can do for you"
-                                    title = "Services provide for you."
+                                    subtitle = "Our Services"
+                                    title = "What we can do for you."
                                     description = "Choose from our innovative digital solutions to elevate your business to the next level."
                                     />
                             </div>
@@ -104,7 +104,7 @@ const Marketing = () => {
                                     textAlign = "text-center"
                                     radiusRounded = ""
                                     subtitle = "Previous Work"
-                                    title = "Check Our Recent Works!"
+                                    title = "Check our recent works!"
                                     description = "Experience our expertise through our portfolio."
                                 />
                             </div>

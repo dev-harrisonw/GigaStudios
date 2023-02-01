@@ -44,7 +44,7 @@ const AboutUs = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title">Empowering Your Business with Cutting-Edge Technology:<br />Welcome to <p className="title" class="title theme-gradient">GigaStudios</p></h3>
+                                    <h3 className="title">Empowering Your Business with Cutting-Edge Technology:<br />Welcome to <span className="title" class="title theme-gradient">GigaStudios</span></h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
@@ -80,8 +80,8 @@ const AboutUs = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "What we can do for you"
-                                    title = "Services provide for you."
+                                    subtitle = "Our Services"
+                                    title = "What we can do for you."
                                     description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                     />
                             </div>

@@ -57,8 +57,8 @@ const Finance = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "What we can do for you"
-                                    title = "Services provide for you."
+                                    subtitle = "Our Services"
+                                    title = "What we can do for you."
                                     description = ""
                                     />
                             </div>

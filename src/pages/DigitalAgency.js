@@ -79,7 +79,7 @@ const DigitalAgency = () => {
                                     textAlign = "text-center"
                                     radiusRounded = ""
                                     subtitle = "About Our Company."
-                                    title = "Services provide for you."
+                                    title = "What we can do for you."
                                     description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                     />
                             </div>
