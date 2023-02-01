@@ -5,7 +5,7 @@ import Logo from "../logo/Logo";
 
 const callToActionData = {
     title: "Ready to create your digital footprint?",
-    subtitle: "If you want to create a corporate template you can purshace now our GigaStudios template.",
+    subtitle: "Unleash the power of the web today",
     btnText: "Enquire Now",
 }
 
