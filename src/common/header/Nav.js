@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="has-droupdown"><Link to="https://www.gigastudios.co.uk/">Home</Link>
+            <li className="has-droupdown"><Link to="/">Home</Link>
                 {/* <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
                     <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
@@ -29,7 +29,7 @@ const Nav = () => {
             
             <li><Link to="/about-us">About</Link></li>
 
-            <li><Link to="/blog">Blog</Link>
+            <li><Link to="/coming-soon">Blog</Link>
                 {/* <ul className="submenu">
                     <li><Link to="/blog-grid">Blog Grid</Link></li>
                     <li><Link to="/blog-grid-sidebar">Blog Grid Sidebar</Link></li>
