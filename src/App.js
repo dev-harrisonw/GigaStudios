@@ -66,6 +66,7 @@ import BlogGridSidebar from "./components/blog/BlogGridSidebar";
 import BlogListSidebar from "./components/blog/BlogListSidebar";
 import BlogDetails from "./pages/BlogDetails";
 import Error from "./pages/Error";
+import ComingSoon from "./pages/ComingSoon";
 
 
 // Import Css Here 
@@ -96,6 +97,7 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/international-consulting"}`} exact component={InternationalConsulting}/>
                     <Route path={`${process.env.PUBLIC_URL + "/startup"}`} exact component={Startup}/>
                     <Route path={`${process.env.PUBLIC_URL + "/web-agency"}`} exact component={WebAgency}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/coming-soon"}`} exact component={ComingSoon}/>
 
                     {/* Blog Part  */}
                     <Route path={`${process.env.PUBLIC_URL + "/blog-grid"}`} exact component={BlogGridView}/>
