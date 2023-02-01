@@ -96,7 +96,8 @@ const Marketing = () => {
 
                 <Separator />
                 {/* Start Portfolio Area  */}
-                <div id="portfolio" className="rwt-portfolio-area rn-section-gapBottom">
+                <section id="portfolio">
+                <div className="rwt-portfolio-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -112,6 +113,7 @@ const Marketing = () => {
                         <PortfolioOne Column="col-lg-4 col-md-6 col-12 mt--30 portfolio"  />
                     </div>
                 </div>
+                </section>
                 {/* End Portfolio Area  */}
 
                 <Separator />
