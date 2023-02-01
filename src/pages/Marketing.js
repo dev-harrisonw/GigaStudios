@@ -54,7 +54,7 @@ const Marketing = () => {
                                     </h1></center>
                                     <center><p className="description">We help our clients succeed by creating stunning digital experiences, at a fraction of the price of our competition.</p></center>
                                     <center><div className="button-group">
-                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Previous Work <i className="icon"><FiArrowRight /></i></Link>
+                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="#portfolio">Previous Work <i className="icon"><FiArrowRight /></i></Link>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div></center>
                                 </div>
@@ -96,7 +96,7 @@ const Marketing = () => {
 
                 <Separator />
                 {/* Start Portfolio Area  */}
-                <div className="rwt-portfolio-area rn-section-gapBottom">
+                <div id="portfolio" className="rwt-portfolio-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
