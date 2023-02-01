@@ -12,7 +12,7 @@ import TimelineTwo from "./TimelineTwo";
 const Timeline = () => {
     return (
         <>
-            <SEO title="Timeline ||GigaStudios - Development Agency" />
+            <SEO title="Timeline || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

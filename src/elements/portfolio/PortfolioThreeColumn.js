@@ -8,7 +8,7 @@ import PortfolioOne from "./PortfolioOne";
 const PortfolioThreeColumn = () => {
     return (
         <>
-            <SEO title="Portfolio Three Column ||GigaStudios - Development Agency" />
+            <SEO title="Portfolio Three Column || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

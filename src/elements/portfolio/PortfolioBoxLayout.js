@@ -8,7 +8,7 @@ import PortfolioOne from "./PortfolioOne";
 const PortfolioBoxLayout = () => {
     return (
         <>
-            <SEO title="Portfolio Box Layout ||GigaStudios - Development Agency" />
+            <SEO title="Portfolio Box Layout || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

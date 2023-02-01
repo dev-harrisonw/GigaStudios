@@ -16,7 +16,7 @@ const Service = () => {
     return (
         <>
 
-            <SEO title="Service ||GigaStudios - Development Agency" />
+            <SEO title="Service || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

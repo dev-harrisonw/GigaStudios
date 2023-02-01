@@ -8,7 +8,7 @@ import AdvancePricingOne from "./AdvancePricingOne";
 const AdvancePricing = () => {
     return (
         <>
-            <SEO title="Advance Pricing ||GigaStudios - Development Agency" />
+            <SEO title="Advance Pricing || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

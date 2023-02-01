@@ -12,7 +12,7 @@ import Separator from "../separator/Separator";
 const Split = () => {
     return (
         <>
-            <SEO title="Split Text ||GigaStudios - Development Agency" />
+            <SEO title="Split Text || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

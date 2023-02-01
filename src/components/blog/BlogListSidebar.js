@@ -13,7 +13,7 @@ import SidebarArchive from './sidebar/SidebarArchive';
 const BlogListSidebar = () => {
     return (
         <>
-            <SEO title="Blog List Sidebar ||GigaStudios - Development Agency" />
+            <SEO title="Blog List Sidebar || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

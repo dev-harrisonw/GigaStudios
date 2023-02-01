@@ -11,15 +11,8 @@ const Portfolio = () => {
 
     return (
         <>
-            <SEO title="Portfolio ||GigaStudios - Development Agency" />
+            <SEO title="Portfolio || GigaStudios - Development Agency" />
             <Layout>
-
-                <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
-                    rootUrl="/"
-                    parentUrl="Home"
-                    currentUrl="Portfolio"
-                />
                 
                 <div className="main-content">
                     <div className="rwt-portfolio-area rn-section-gap">
@@ -29,9 +22,9 @@ const Portfolio = () => {
                                         <SectionTitle
                                             textAlign = "text-center"
                                             radiusRounded = ""
-                                            subtitle = "Portfolio Default"
-                                            title = "You can customize everything!"
-                                            description = ""
+                                            subtitle = "Previous Work"
+                                            title = "Check our recent works!"
+                                            description = "Experience our expertise through our portfolio."
                                         />
                                 </div>
                             </div>

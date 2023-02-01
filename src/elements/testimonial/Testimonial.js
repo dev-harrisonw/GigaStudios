@@ -11,7 +11,7 @@ import Separator from "../separator/Separator";
 const Testimonial = () => {
     return (
         <>
-            <SEO title="Testimonial ||GigaStudios - Development Agency" />
+            <SEO title="Testimonial || GigaStudios - Development Agency" />
             
             <Layout>
                 <BreadcrumbOne 

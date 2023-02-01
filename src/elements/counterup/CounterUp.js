@@ -11,7 +11,7 @@ import CounterUpFour from "./CounterUpFour";
 const CounterUp = () => {
     return (
         <>
-            <SEO title="Counter ||GigaStudios - Development Agency" />
+            <SEO title="Counter || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

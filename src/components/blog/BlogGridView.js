@@ -8,7 +8,7 @@ import BlogProp from './itemProp/BlogProp';
 const BlogGridView = () => {
     return (
         <>
-            <SEO title="Blog List ||GigaStudios - Development Agency" />
+            <SEO title="Blog List || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."

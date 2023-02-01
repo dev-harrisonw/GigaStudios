@@ -7,7 +7,7 @@ import BlogPropTwo from './itemProp/BlogPropTwo';
 const BlogListView = () => {
     return (
         <>
-            <SEO title="Blog List View ||GigaStudios - Development Agency" />
+            <SEO title="Blog List View || GigaStudios - Development Agency" />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
