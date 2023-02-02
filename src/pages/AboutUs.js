@@ -121,7 +121,7 @@ const AboutUs = () => {
                                 />
                             </div>
                         </div>
-                        <TeamOne column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" teamStyle="team-style-one" />
+                        <TeamOne column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" teamStyle="team-style-default" />
                     </div>
                 </div>
                 {/* End Elements Area  */}
