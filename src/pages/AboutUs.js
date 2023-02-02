@@ -57,6 +57,18 @@ const AboutUs = () => {
 
                 <AboutFour image="./images/about/contact-image.jpg" />
 
+                {/* Start Brand Area  */}
+                <div className="rwt-brand-area pb--60 pt--30">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12 mt--10">
+                                <BrandThree brandStyle="brand-style-2" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* End Brand Area  */}
+
                 <Separator />
 
                 {/* Start Service Area  */}
@@ -81,6 +93,8 @@ const AboutUs = () => {
                 </div>
                 {/* End Service Area  */}
 
+                <Separator />
+
                 <div className="rwt-timeline-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
@@ -90,20 +104,6 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-
-                <Separator />
-
-                {/* Start Brand Area  */}
-                <div className="rwt-brand-area pb--60 pt--30">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12 mt--10">
-                                <BrandThree brandStyle="brand-style-2" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Brand Area  */}
                 
 
                 <Separator />
