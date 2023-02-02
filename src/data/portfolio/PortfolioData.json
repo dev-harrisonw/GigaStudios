@@ -12,8 +12,8 @@
         "excerpt": "https://www.londoncomedylunch.com/",
         "body": ["<p>London Comedy Lunch website is a landing page for an event that provides information about the event and allows visitors to enquire about table reservations. The website was developed using Bootstrap CSS framework, HTML programming and was visually appealing and easy to navigate. The client provided specific assets that were incorporated into the design. The website is hosted and maintained by the developer team to ensure it runs smoothly and is up-to-date.</p><br/><p>Overall, the development of London Comedy Lunch website was a success, providing an effective platform for promoting the event and providing visitors with all the information they need to make a reservation.</p>"],
         "btn": {
-            "buttontext": "View Projects",
-            "link": ""
+            "buttontext": "View Project",
+            "link": "https://www.londoncomedylunch.com/"
         },
         "largeImage": "./images/portfolio/lcl.jpg",
         "subContent": {
@@ -48,8 +48,8 @@
         "excerpt": "",
         "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
         "btn": {
-            "buttontext": "View Projects",
-            "link": "/"
+            "buttontext": "View Project",
+            "link": "https://www.atholpaints.co.uk/"
         },
         "largeImage": "images/portfolio/athol.jpg",
         "subContent": {
@@ -84,7 +84,7 @@
         "excerpt": "",
         "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
         "btn": {
-            "buttontext": "View Projects",
+            "buttontext": "Demo N/A",
             "link": "/"
         },
         "largeImage": "images/portfolio/ai.jpg",
@@ -120,8 +120,8 @@
         "excerpt": "",
         "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
         "btn": {
-            "buttontext": "View Projects",
-            "link": "/"
+            "buttontext": "View Project",
+            "link": "https://www.bandobaby.com"
         },
         "largeImage": "images/portfolio/bandobaby.jpg",
         "subContent": {
@@ -156,8 +156,8 @@
         "excerpt": "",
         "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
         "btn": {
-            "buttontext": "View Projects",
-            "link": "/"
+            "buttontext": "View Project",
+            "link": "https://www.harrisonwarburton.com/"
         },
         "largeImage": "images/portfolio/portfolio.jpg",
         "subContent": {
