@@ -7,8 +7,7 @@ import BrandThree from '../elements/brand/BrandThree';
 import AboutFour from '../elements/about/AboutFour';
 import ServiceOne from "../elements/service/ServiceOne";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import CounterUpFour from "../elements/counterup/CounterUpFour";
-import TeamFour from "../elements/team/TeamFour";
+import TeamOne from "../elements/team/TeamOne";
 import TimelineTwo from "../elements/timeline/TimelineTwo";
 import Separator from "../elements/separator/Separator";
 
@@ -122,7 +121,7 @@ const AboutUs = () => {
                                 />
                             </div>
                         </div>
-                        <TeamFour column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" teamStyle="team-style-three" />
+                        <TeamOne column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" teamStyle="team-style-one" />
                     </div>
                 </div>
                 {/* End Elements Area  */}
