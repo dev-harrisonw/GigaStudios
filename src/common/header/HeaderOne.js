@@ -38,7 +38,7 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                     <Nav />
                                 </nav>
                                 <div className="header-btn">
-                                    <a className={`btn-default ${btnStyle}`} target="_blank" href="mailto:me@harrisonwarburton.com">ENQUIRE NOW</a>
+                                    <a className={`btn-default ${btnStyle}`} target="_blank" href="https://calendly.com/gigastudios/30min?month=2023-02">ENQUIRE NOW</a>
                                 </div>
                                 <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                                     <div className="hamberger">

@@ -15,7 +15,7 @@ const HeaderTopNews = () => {
                                     <span className="news-text">Intro price. Get GigaStudios for Big Sale <strong>-95% off.</strong></span>
                                 </div>
                                 <div className="right-button">
-                                    <a className="btn-read-more" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular"><span>Purchase Now <FiArrowRight /></span></a>
+                                    <a className="btn-read-more" target="_blank" href="https://calendly.com/gigastudios/30min?month=2023-02"><span>Purchase Now <FiArrowRight /></span></a>
                                 </div>
                             </div>
                         </div>
