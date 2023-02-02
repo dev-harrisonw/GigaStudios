@@ -55,20 +55,7 @@ const AboutUs = () => {
                 </div>
                 {/* End Service Area  */}
 
-
-
-                {/* Start Brand Area  */}
-                <div className="rwt-brand-area pb--60 pt--30">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12 mt--10">
-                                <BrandThree brandStyle="brand-style-2" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Brand Area  */}
-
+                <AboutFour image="./images/about/contact-image.jpg" />
 
                 <Separator />
 
@@ -106,15 +93,18 @@ const AboutUs = () => {
 
                 <Separator />
 
-                <AboutFour image="./images/about/contact-image.jpg" />
-                
-                {/* Start Elements Area  */}
-                <div className="rwt-counterup-area pb--100">
-                    <div className="container mt_dec--30">
-                        <CounterUpFour column="col-lg-3 col-md-6 col-sm-6 col-12" counterStyle="counter-style-4" textALign="text-center" />   
+                {/* Start Brand Area  */}
+                <div className="rwt-brand-area pb--60 pt--30">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12 mt--10">
+                                <BrandThree brandStyle="brand-style-2" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-                {/* End Elements Area  */}
+                {/* End Brand Area  */}
+                
 
                 <Separator />
 
@@ -126,8 +116,8 @@ const AboutUs = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "Our Corporate Team."
-                                    title = "Corporate Team Member."
+                                    subtitle = "Our Team"
+                                    title = "Meet our experts!"
                                     description = ""
                                 />
                             </div>

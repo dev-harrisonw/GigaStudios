@@ -29,8 +29,8 @@ const AboutFour = ({image}) => {
                     <div className="col-lg-6 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title">GigaStudios specializes in <br />
-                                        <span className="title theme-gradient display-two"><Typed
+                                <h3 className="title">We specialize in <br />
+                                        <span className="title theme-gradient"><Typed
                                             strings={[
                                                 "Web Development.",
                                                 "App Development.",
