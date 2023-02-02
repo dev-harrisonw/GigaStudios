@@ -30,7 +30,7 @@ const ContactOne = () => {
                                     <div className="inner">
                                         <h4 className="title">Our Email Address</h4>
                                         <p><a href="contact@gigastudios.co.uk">contact@gigastudios.co.uk</a></p>
-                                        <p><a href="mailto:example@gmail.com">me@harrisonwarburton.com</a><br/></p>
+                                        <p><a href="mailto:me@harrisonwarburton.com">me@harrisonwarburton.com</a><br/></p>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Our Location</h4>
-                                        <p>We don't currently have an office yet, but there's something in the pipeline. *wink wink*</p>
+                                        <p>We don't currently have an office yet, but there's something in the pipeline.</p>
                                     </div>
                                 </div>
                             </div>

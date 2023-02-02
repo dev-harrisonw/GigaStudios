@@ -7,13 +7,13 @@ const progressData = [
       id: 1,
       title: "Web Development",
       percantage: 90,
-      progressColor: "#059DFF",
+      progressColor: "#432968",
     },
     {
       id: 2,
       title: "Photoshop Design",
       percantage: 75,
-      progressColor: "#FB5343",
+      progressColor: "#EA267A",
     },
     {
       id: 3,

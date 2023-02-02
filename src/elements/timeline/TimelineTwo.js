@@ -4,23 +4,23 @@ import ScrollAnimation from "react-animate-on-scroll";
 const TimelineData = [
     {
         id: "1",
-        title: "Knowledge",
-        description: "Present all available features in Essentials.",
+        title: "Requirements",
+        description: "Gathering information and identifying project needs and objectives.",
     },
     {
         id: "2",
-        title: "Working",
-        description: "All Feature available features in Essentials.",
+        title: "Design",
+        description: "Creating a detailed plan for project execution.",
     },
     {
         id: "3",
-        title: "Solution",
-        description: "Popular Feature available features in Essentials.",
+        title: "Implementation",
+        description: "Carrying out the plan and developing necessary systems or processes.",
     },
     {
         id: "4",
-        title: "Process",
-        description: "Latest Feature available features in Essentials.",
+        title: "Evaluation",
+        description: "Monitoring progress, assessing impact, and making necessary adjustments.",
     },
 ]
 

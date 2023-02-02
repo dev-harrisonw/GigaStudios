@@ -11,7 +11,7 @@ const AccordionOne = ({customStyle}) => {
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body>"GigaStudios offers a full range of services, whether it be website design or app development, to hosting or maintenance. We help businesses achieve their online goals. </Card.Body>
+                    <Card.Body>GigaStudios offers a full range of services, whether it be website design or app development, to hosting or maintenance. We help businesses achieve their online goals. </Card.Body>
                 </Accordion.Collapse>
             </Card>
 

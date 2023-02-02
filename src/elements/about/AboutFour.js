@@ -1,3 +1,4 @@
+import Typed from 'react-typed';
 import React from 'react';
 import VideoTwo from '../video/VideoTwo';
 import { FiCheck } from "react-icons/fi";
@@ -8,7 +9,7 @@ const PopupData = [
         id: "01",
         image: "./images/bg/bg-image-4.jpg",
         popupLink: [
-            'https://www.youtube.com/watch?v=ctsT5Y-InqE&ab_channel=Rainbow-Themes',
+            'https://www.youtube.com/watch?v=',
         ],
     }
 ]
@@ -28,15 +29,27 @@ const AboutFour = ({image}) => {
                     <div className="col-lg-6 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="inner">
-                                <h3 className="title">GigaStudios specializes in <br /> small <strong>Corporate Business.</strong></h3>
+                                <h3 className="title">GigaStudios specializes in <br />
+                                        <span className="title theme-gradient display-two"><Typed
+                                            strings={[
+                                                "Web Development.",
+                                                "App Development.",
+                                                "Bespoke Development.",
+                                                "Maintenance & Support",
+                                            ]}
+                                            typeSpeed={80}
+                                            backSpeed={5}
+                                            backDelay={1000}
+                                            loop
+                                        /></span></h3>
                                 <ul className="feature-list">
                                     <li>
                                         <div className="icon">
                                             <FiCheck />
                                         </div>
                                         <div className="title-wrapper">
-                                            <h4 className="title">A good traveler has no fixed plans</h4>
-                                            <p className="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p>
+                                            <h4 className="title">Committed to Quality and Innovation</h4>
+                                            <p className="text">Our unwavering commitment to quality and innovation sets us apart, ensuring that every project we undertake exceeds expectations and delivers exceptional results.</p>
                                         </div>
                                     </li>
                                     <li>
@@ -44,13 +57,13 @@ const AboutFour = ({image}) => {
                                             <FiCheck />
                                         </div>
                                         <div className="title-wrapper">
-                                            <h4 className="title">A good traveler has no fixed plans</h4>
-                                            <p className="text">Lorem ipsum dolor consectetur adipiscing do eiusmod tempor incididunt labore.</p>
+                                            <h4 className="title">Expert Development and Design Team.</h4>
+                                            <p className="text">GigaStudios delivers unparalleled solutions with expert development and design, exceeding the unique needs of each and every client.</p>
                                         </div>
                                     </li>
                                 </ul>
                                 <div className="about-btn mt--30">
-                                    <a className="btn-default" href="#">About Our GigaStudios</a>
+                                    <a className="btn-default" href="/">Our Story</a>
                                 </div>
                             </div>
                         </div>

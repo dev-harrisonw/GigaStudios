@@ -16,7 +16,7 @@ const progressData = [
       percantage: 85,
       subtitle: "Presentation your skill",
       strokeColor: "#0f0f11",
-      strokePath: "#059DFF",
+      strokePath: "#432968",
       strokeLinecap: 'round',
       strokeWidth: 5
     },
@@ -27,7 +27,7 @@ const progressData = [
       percantage: 60,
       subtitle: "Presentation your skill",
       strokeColor: "#0f0f11",
-      strokePath: "#059DFF",
+      strokePath: "#432968",
       strokeLinecap: 'round',
       strokeWidth: 5
     },
@@ -38,7 +38,7 @@ const progressData = [
       percantage: 70,
       subtitle: "Presentation your skill",
       strokeColor: "#0f0f11",
-      strokePath: "#059DFF",
+      strokePath: "#432968",
       strokeLinecap: 'round',
       strokeWidth: 5
     },
@@ -48,7 +48,7 @@ const progressData = [
       percantage: 95,
       subtitle: "Presentation your skill",
       strokeColor: "#0f0f11",
-      strokePath: "#059DFF",
+      strokePath: "#432968",
       strokeLinecap: 'round',
       strokeWidth: 5
     },
