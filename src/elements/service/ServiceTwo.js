@@ -20,7 +20,7 @@ const ServiceList = [
     },
     {
         image: '/images/service/maintenance.png',
-        title: 'Maintenance/Support',
+        title: 'Maintenance',
         description: 'Ensure that your website or application is always running smoothly with our comprehensive maintenance.'
     }
 ]

@@ -24,7 +24,7 @@ const ServiceList = [
     },
     {
         icon: <ImCogs />,
-        title: 'Maintenace/Support',
+        title: 'Maintenace',
         description: 'Ensure that your website or application is always running smoothly with our comprehensive maintenance.'
     },
 ]
