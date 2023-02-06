@@ -46,7 +46,7 @@
         "category": "website",
         "awards": [],
         "excerpt": "",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": ["<p>Athol Paints wanted to revamp their online presence and give their customers a modern and user-friendly platform to explore their range of paints and make enquiries. To achieve this, a new website was developed using the latest web technologies. The result is a stunning, one-page design that is both visually appealing and easy to navigate.<br /><br /> The website not only showcases Athol Paints' range of products but also offers a streamlined experience for customers looking to make a purchase or ask a question. With its modern and sophisticated design, Athol Paints' new website sets them apart as a forward-thinking paint manufacturer, and demonstrates their commitment to delivering the best possible customer experience.<br /><br />We also offer ongoing maintenance services to ensure their website stays up-to-date and secure. Our maintenance services cover website updates, including content and feature additions, as well as hosting and security. We understand the importance of keeping a website secure and available 24/7, and our hosting solutions provide reliable and scalable infrastructure to ensure the website stays online.</p>"],
         "btn": {
             "buttontext": "View Project",
             "link": "https://www.atholpaints.co.uk/"
@@ -118,7 +118,7 @@
         "category": "maintenance",
         "awards": [],
         "excerpt": "",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": ["<p>We provided this client with ongoing support for website updates, bug fixes, and the addition of new product launches. Our team had established a great working relationship with the client, allowing for smooth and efficient communication.<br /><br /> We made sure to keep the website up-to-date with the latest information, ensuring a positive user experience for their customers. Our expertise in website maintenance allowed us to provide quick resolution to any issues that arose, leading to high customer satisfaction for the client.<br /><br />Overall, our dedicated support and attention to detail resulted in a successful partnership with the client.</p>"],
         "btn": {
             "buttontext": "View Project",
             "link": "https://www.bandobaby.com"
@@ -154,7 +154,7 @@
         "category": "website",
         "awards": [],
         "excerpt": "",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": ["<p>For this portfolio website, we utilized the React framework, which is a popular and widely-used JavaScript library for building user interfaces. React allows for the creation of dynamic and interactive designs, resulting in a smooth and engaging user experience.<br /><br />One of the key features of React is its ability to create reusable components, making it easier and more efficient to maintain and update the website over time. This leads to reduced development time and improved website performance.<br /><br />React is also highly scalable, ensuring that your website can handle increasing traffic and usage without any loss of speed or responsiveness. This makes React a future-proof solution for building and growing your online presence.</p>"],
         "btn": {
             "buttontext": "View Project",
             "link": "https://www.harrisonwarburton.com/"
