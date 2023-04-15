@@ -17,7 +17,7 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contact Phone Number</h4>
-                                        <p><a href="tel:+447984980188">+44 7984 980188</a><br/><br/></p>
+                                        <p><a href="tel:+447432172638">+44 7432 172638</a><br/><br/></p>
                                     </div>
                                 </div>
                             </div>
