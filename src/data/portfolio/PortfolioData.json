@@ -1,21 +1,21 @@
 [
     {
         "id": 1,
-        "portfolioImage": "./images/portfolio/portfolio-03.jpg",
-        "image": "images/portfolio/portfolio-03.jpg",
-        "title": "Booking App",
+        "portfolioImage": "./images/portfolio/lcl.jpg",
+        "image": "images/portfolio/lcl.jpg",
+        "title": "London Comedy Lunch",
         "subtitle": "Website Development",
         "date": "20 May 2021",
-        "client": "N/A",
+        "client": "Inconnection UK Ltd.",
         "category": "website",
         "awards": [],
-        "excerpt": "https://www.comingsoon.com/",
-        "body": ["<p>Coming Soon...</p>"],
+        "excerpt": "https://www.londoncomedylunch.com/",
+        "body": ["<p>London Comedy Lunch website is a landing page for an event that provides information about the event and allows visitors to enquire about table reservations. The website was developed using Bootstrap CSS framework, HTML programming and was visually appealing and easy to navigate. The client provided specific assets that were incorporated into the design. The website is hosted and maintained by the developer team to ensure it runs smoothly and is up-to-date.</p><br/><p>Overall, the development of London Comedy Lunch website was a success, providing an effective platform for promoting the event and providing visitors with all the information they need to make a reservation.</p>"],
         "btn": {
             "buttontext": "View Project",
-            "link": "https://www.comingsoon.com/"
+            "link": "https://www.londoncomedylunch.com/"
         },
-        "largeImage": "./images/portfolio/portfolio-03.jpg",
+        "largeImage": "./images/portfolio/lcl.jpg",
         "subContent": {
             "title": "Digital Marketing.",
             "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
@@ -29,9 +29,9 @@
             "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
         },
         "gallery": {
-            "imageOne": "images/portfolio/portfolio-03.jpg",
-            "imageTwo": "images/portfolio/portfolio-03.jpg",
-            "imageThree": "images/portfolio/portfolio-03.jpg"
+            "imageOne": "images/portfolio/lcl-01.jpg",
+            "imageTwo": "images/portfolio/lcl-02.jpg",
+            "imageThree": "images/portfolio/lcl-03.jpg"
         }
     },
 
