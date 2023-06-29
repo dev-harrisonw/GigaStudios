@@ -22,8 +22,8 @@ const HeaderTopBar = () => {
                                 <ul className="social-icon social-default icon-naked">
                                     <li><Link to="twitter.com"><FiFacebook /></Link></li>
                                     <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                    <li href="https://instagram.com/gigastudiosltd/"><FiInstagram /></Link></li>
-                                    <li href="https://linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                    <li href="https://instagram.com/gigastudiosltd/"><FiInstagram /></li>
+                                    <li href="https://linkedin.com/company/gigastudios/"><FiLinkedin /></li>
                                 </ul>
                             </div>
                         </div>
