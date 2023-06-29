@@ -16,14 +16,14 @@ const HeaderTopBar = () => {
                         <div className="header-right">
                             <div className="address-content">
                                 <p><FiMapPin /><span>Manchester, UK</span></p>
-                                <p><FiPhone /><span><a href="tel:+447432172638">+44 7432 172638</a></span></p>
+                                <p><FiPhone /><span><a href="#">+44 7984 980188</a></span></p>
                             </div>
                             <div className="social-icon-wrapper">
                                 <ul className="social-icon social-default icon-naked">
                                     <li><Link to="twitter.com"><FiFacebook /></Link></li>
                                     <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                    <li><Link to="instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
-                                    <li><Link to="linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                    <li><Link to="instagram.com"><FiInstagram /></Link></li>
+                                    <li><Link to="linkdin.com"><FiLinkedin /></Link></li>
                                 </ul>
                             </div>
                         </div>
