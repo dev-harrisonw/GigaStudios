@@ -1,42 +1,6 @@
 [
     {
         "id": 1,
-        "portfolioImage": "./images/portfolio/lcl.jpg",
-        "image": "images/portfolio/lcl.jpg",
-        "title": "London Comedy Lunch",
-        "subtitle": "Website Development",
-        "date": "20 May 2021",
-        "client": "Inconnection UK Ltd.",
-        "category": "website",
-        "awards": [],
-        "excerpt": "https://www.londoncomedylunch.com/",
-        "body": ["<p>London Comedy Lunch website is a landing page for an event that provides information about the event and allows visitors to enquire about table reservations. The website was developed using Bootstrap CSS framework, HTML programming and was visually appealing and easy to navigate. The client provided specific assets that were incorporated into the design. The website is hosted and maintained by the developer team to ensure it runs smoothly and is up-to-date.</p><br/><p>Overall, the development of London Comedy Lunch website was a success, providing an effective platform for promoting the event and providing visitors with all the information they need to make a reservation.</p>"],
-        "btn": {
-            "buttontext": "View Project",
-            "link": "https://www.londoncomedylunch.com/"
-        },
-        "largeImage": "./images/portfolio/lcl.jpg",
-        "subContent": {
-            "title": "Digital Marketing.",
-            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent2": {
-            "title": "App Development.",
-            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent3": {
-            "title": "Solution.",
-            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "gallery": {
-            "imageOne": "images/portfolio/lcl-01.jpg",
-            "imageTwo": "images/portfolio/lcl-02.jpg",
-            "imageThree": "images/portfolio/lcl-03.jpg"
-        }
-    },
-
-    {
-        "id": 2,
         "portfolioImage": "./images/portfolio/athol.jpg",
         "image": "images/portfolio/athol.jpg",
         "title": "Athol Paints",
@@ -72,7 +36,7 @@
     },
 
     {
-        "id": 3,
+        "id": 2,
         "portfolioImage": "./images/portfolio/ai.jpg",
         "image": "images/portfolio/ai.jpg",
         "title": "AI Chatbot",
@@ -108,7 +72,7 @@
     },
 
     {
-        "id": 4,
+        "id": 3,
         "portfolioImage": "./images/portfolio/bandobaby.jpg",
         "image": "images/portfolio/portfolio-02.jpg",
         "title": "Bando Baby",
@@ -144,7 +108,7 @@
     },
 
     {
-        "id": 5,
+        "id": 4,
         "portfolioImage": "./images/portfolio/portfolio.jpg",
         "image": "images/portfolio/portfolio.jpg",
         "title": "Portfolio Website",
