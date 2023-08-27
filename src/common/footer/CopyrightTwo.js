@@ -11,7 +11,7 @@ const CopyrightTwo = () => {
                         <div className="copyright-left">
                             <ul className="ft-menu link-hover">
                                 <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms And Condition</a></li>
+                                <li><a href="#">Terms and Conditions</a></li>
                                 <li><a href="/contact">Contact Us</a></li>
                             </ul>
                         </div>
@@ -21,8 +21,8 @@ const CopyrightTwo = () => {
                             <ul className="social-icon social-default color-lessdark justify-content-center">
                                 <li><Link to="facebook.com"><FiFacebook /></Link></li>
                                 <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                <li><Link to="instagram.com"><FiInstagram /></Link></li>
-                                <li><Link to="linkdin.com"><FiLinkedin /></Link></li>
+                                <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                             </ul>
                         </div>
                     </div>

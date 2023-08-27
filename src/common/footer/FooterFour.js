@@ -93,10 +93,9 @@ const FooterFour = () => {
                                     <div className="inner">
                                         <h6 className="subtitle">{footerIntemFive.subtitle}</h6>
                                         <ul className="social-icon social-default justify-content-start">
-                                            <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                            <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                            <li><Link to="instagram.com"><FiInstagram /></Link></li>
-                                            <li><Link to="linkdin.com"><FiLinkedin /></Link></li>
+
+                                            <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                            <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -113,7 +112,7 @@ const FooterFour = () => {
                                 <div className="copyright-left">
                                     <ul className="ft-menu link-hover">
                                         <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Terms And Condition</a></li>
+                                        <li><a href="#">Terms and Conditions</a></li>
                                         <li><a href="/contact">Contact Us</a></li>
                                     </ul>
                                 </div>
