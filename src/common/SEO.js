@@ -13,6 +13,7 @@ const SEO = ( {title} ) => {
             <meta name="keywords" content="GigaStudios, Development, Website Development, App Development, Software Development, Software, Giga Studios" />
             <meta name="author" content="Harrison Warburton" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"></link>
         </>
     )
 }
