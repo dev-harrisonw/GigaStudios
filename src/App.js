@@ -9,6 +9,7 @@ import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
 import Author from "./pages/Author";
 import AboutUs from "./pages/AboutUs";
+import Index from "./pages/Index";
 
 // Elements import Here 
 
