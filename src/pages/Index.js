@@ -23,7 +23,7 @@ import { ReactComponent as MyIcon } from "./hero.svg";
 
 
 
-const Marketing = () => {
+const Index = () => {
     return (
         <>
             <SEO title="Home" />
@@ -150,4 +150,4 @@ const Marketing = () => {
     )
 }
 
-export default Marketing;
+export default Index;
