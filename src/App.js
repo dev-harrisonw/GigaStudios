@@ -5,9 +5,7 @@ import PageScrollTop from './components/pageToTop/PageScrollTop'
 // Pages import Here 
 
 
-import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
-import Author from "./pages/Author";
 import AboutUs from "./pages/AboutUs";
 import Index from "./pages/Index";
 
@@ -50,6 +48,8 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/blog-list-view"}`} exact component={BlogListView}/>
                     <Route path={`${process.env.PUBLIC_URL + "/blog-grid-sidebar"}`} exact component={BlogGridSidebar}/>
                     <Route path={`${process.env.PUBLIC_URL + "/blog-list-sidebar"}`} exact component={BlogListSidebar}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`} exact component={BlogDetails}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/tag/:slug"}`} exact component={TagList}/>
 
                     <Route path={`${process.env.PUBLIC_URL + "/contact"}`} exact component={Contact}/>
                     <Route path={`${process.env.PUBLIC_URL + "/about-us"}`} exact component={AboutUs}/>
@@ -61,6 +61,7 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-full-width"}`} exact component={PortfolioFullWidth}/>
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-grid-layout"}`} exact component={PortfolioGrid}/>
                     <Route path={`${process.env.PUBLIC_URL + "/portfolio-box-layout"}`} exact component={PortfolioBoxLayout}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/portfolio-details/:id"}`} exact component={PortfolioDetails}/>
 
 
 
