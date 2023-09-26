@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+
 import ScrollAnimation from "react-animate-on-scroll";
 
 const TimelineData = [
@@ -22,20 +24,20 @@ const TimelineData = [
         title: "Evaluation",
         description: "Monitoring progress, assessing impact, and making necessary adjustments.",
     },
-]
+];
 
-const TimelineTwo = ({classVar}) => {
+const TimelineTwo = ({ classVar }) => {
     return (
         <div className="timeline-style-two bg-color-blackest">
             <div className="row row--0">
                 {/* Start Single Progress */}
-                {TimelineData.map((data , index) =>(
+                {TimelineData.map((data, index) => (
                     <div className={`col-lg-3 col-md-3 rn-timeline-single ${classVar}`} key={index}>
                         <div className="rn-timeline">
-                            <ScrollAnimation 
-                            animateIn="fadeInUp"
-                            animateOut="fadeInOut"
-                            animateOnce={true}>
+                            <ScrollAnimation
+                                animateIn="fadeInUp"
+                                animateOut="fadeInOut"
+                                animateOnce={true}>
                                 <h6 className="title">{data.title}</h6>
                             </ScrollAnimation>
                             <div className="progress-line">
@@ -46,10 +48,10 @@ const TimelineTwo = ({classVar}) => {
                                     <div className="dot-inner"></div>
                                 </div>
                             </div>
-                            <ScrollAnimation 
-                            animateIn="fadeInUp"
-                            animateOut="fadeInOut"
-                            animateOnce={true}>
+                            <ScrollAnimation
+                                animateIn="fadeInUp"
+                                animateOut="fadeInOut"
+                                animateOnce={true}>
                                 <p className="description">{data.description}</p>
                             </ScrollAnimation>
                         </div>
@@ -58,6 +60,6 @@ const TimelineTwo = ({classVar}) => {
                 {/* End Single Progress */}
             </div>
         </div>
-    )
-}
+    );
+};
 export default TimelineTwo;

@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Darkmode2 = () => {
     let clickedClass = 'clicked';
@@ -8,12 +7,12 @@ const Darkmode2 = () => {
     let theme;
 
     if (window.localStorage) {
-        theme = window.localStorage.getItem("theme")
+        theme = window.localStorage.getItem("theme");
     }
     if (theme === darkTheme || theme === lightTheme) {
-        body.classList.add(theme)
-    }else {
-        body.classList.add(darkTheme)
+        body.classList.add(theme);
+    } else {
+        body.classList.add(darkTheme);
     }
 
     const switchTheme = (e) => {
@@ -22,23 +21,23 @@ const Darkmode2 = () => {
             e.target.classList.remove(clickedClass);
             window.localStorage.setItem("theme", "dark");
             theme = darkTheme;
-        }else {
+        } else {
             body.classList.replace(darkTheme, lightTheme);
             e.target.classList.add(clickedClass);
             window.localStorage.setItem("theme", "dark");
             theme = lightTheme;
         }
-    }
-    
-    return (
-        <button className={theme === "light" ? clickedClass : ""} 
-        id="darkmode"
-        onClick={(e) => switchTheme(e)}
-        >
-           <img className="light-icon" src={`${process.env.PUBLIC_URL}/images/icons/sun-01.svg`} alt="Sun images" />
-           <img className="dark-icon" src={`${process.env.PUBLIC_URL}/images/icons/vector.svg`} alt="Sun images" />
-        </button>
-    )
-}
+    };
 
-export default Darkmode2
+    return (
+        <button className={theme === "light" ? clickedClass : ""}
+            id="darkmode"
+            onClick={(e) => switchTheme(e)}
+        >
+            <img className="light-icon" src={`/images/icons/sun-01.svg`} alt="Sun images" />
+            <img className="dark-icon" src={`/images/icons/vector.svg`} alt="Sun images" />
+        </button>
+    );
+};
+
+export default Darkmode2;

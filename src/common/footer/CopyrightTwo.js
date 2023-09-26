@@ -1,6 +1,5 @@
-import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
-import {Link} from "react-router-dom";
+import Link from 'next/link';
+import { FiFacebook, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const CopyrightTwo = () => {
     return (
@@ -19,10 +18,10 @@ const CopyrightTwo = () => {
                     <div className="col-lg-4 col-md-5 mt_sm--20">
                         <div className="copyright-center text-center">
                             <ul className="social-icon social-default color-lessdark justify-content-center">
-                                <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
-                                <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                <li><Link href="facebook.com"><FiFacebook /></Link></li>
+                                <li><Link href="twitter.com"><FiTwitter /></Link></li>
+                                <li><Link href="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                <li><Link href="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -34,6 +33,6 @@ const CopyrightTwo = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 export default CopyrightTwo;

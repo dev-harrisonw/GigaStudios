@@ -1,4 +1,3 @@
-import React from 'react';
 
 
 const PortfolioDetailsContent = ({ data }) => {
@@ -10,7 +9,7 @@ const PortfolioDetailsContent = ({ data }) => {
                         <div className="inner">
                             <div className="details-list">
                                 <div className="thumbnail alignwide">
-                                    <img className="radius w-100" src={`${process.env.PUBLIC_URL}/${data.largeImage}`} alt="Corporate Image" />
+                                    <img className="radius w-100" src={`/${data.largeImage}`} alt="Corporate Image" />
                                 </div>
 
                                 <div className="row mt--40 row--30">
@@ -39,7 +38,7 @@ const PortfolioDetailsContent = ({ data }) => {
                                     <div className="col-lg-6 mt_md--30 mt_sm--30">
                                         <div className="content-right">
                                             <h5 className="subtitle">{data.subtitle}</h5>
-                                            <div className="description" dangerouslySetInnerHTML={{__html: data.body}}></div>
+                                            <div className="description" dangerouslySetInnerHTML={{ __html: data.body }}></div>
                                         </div>
                                     </div>
                                 </div>
@@ -47,17 +46,17 @@ const PortfolioDetailsContent = ({ data }) => {
                             <div className="portfolio-gallery mt--40">
                                 <div className="gallery mt--30">
                                     <div className="thumbnail">
-                                        <img className="radius w-100" src={`${process.env.PUBLIC_URL}/${data.gallery.imageOne}`} alt="Corporate Image" />
+                                        <img className="radius w-100" src={`/${data.gallery.imageOne}`} alt="Corporate Image" />
                                     </div>
                                 </div>
                                 <div className="gallery mt--30">
                                     <div className="thumbnail">
-                                        <img className="radius w-100" src={`${process.env.PUBLIC_URL}/${data.gallery.imageTwo}`} alt="Corporate Image" />
+                                        <img className="radius w-100" src={`/${data.gallery.imageTwo}`} alt="Corporate Image" />
                                     </div>
                                 </div>
                                 <div className="gallery mt--30">
                                     <div className="thumbnail">
-                                        <img className="radius w-100" src={`${process.env.PUBLIC_URL}/${data.gallery.imageThree}`} alt="Corporate Image" />
+                                        <img className="radius w-100" src={`/${data.gallery.imageThree}`} alt="Corporate Image" />
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +65,7 @@ const PortfolioDetailsContent = ({ data }) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default PortfolioDetailsContent;

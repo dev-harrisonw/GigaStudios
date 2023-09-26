@@ -1,4 +1,3 @@
-import React from 'react';
 
 const BrandList = [
     {
@@ -55,9 +54,9 @@ const BrandList = [
     {
         image: './images/brand/brand-08.png'
     },
-]
+];
 
-const BrandTwo = ({brandStyle}) => {
+const BrandTwo = ({ brandStyle }) => {
     return (
         <ul className={`brand-list ${brandStyle}`}>
             {BrandList.map((data, index) => (
@@ -66,7 +65,7 @@ const BrandTwo = ({brandStyle}) => {
                 </li>
             ))}
         </ul>
-    )
-}
+    );
+};
 
 export default BrandTwo;

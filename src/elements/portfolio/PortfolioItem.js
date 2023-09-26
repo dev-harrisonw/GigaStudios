@@ -1,5 +1,4 @@
-import React from 'react';
-import {Link} from "react-router-dom";
+import Link from 'next/link';
 
 const PortfolioItem = ({ portfolio }) => {
     return (
@@ -7,15 +6,15 @@ const PortfolioItem = ({ portfolio }) => {
             <div className="inner">
                 <div className="thumbnail">
                     <figure className="card-image">
-                        <Link to={process.env.PUBLIC_URL + `/portfolio-details/${portfolio.id}`}>
-                            <img className="img-fluid" src={portfolio.portfolioImage} alt="Portfolio-01"/>
+                        <Link href={`/portfolio/${portfolio.id}`}>
+                            <img className="img-fluid" src={portfolio.portfolioImage} alt="Portfolio-01" />
                         </Link>
                     </figure>
-                    <Link to={process.env.PUBLIC_URL + `/portfolio-details/${portfolio.id}`} className="rwt-overlay"></Link>
+                    <Link href={`/portfolio/${portfolio.id}`} className="rwt-overlay"></Link>
                 </div>
                 <div className="content">
                     <h5 className="title mb--10">
-                        <Link to={process.env.PUBLIC_URL + `/portfolio-details/${portfolio.id}`}>
+                        <Link href={`/portfolio/${portfolio.id}`}>
                             {portfolio.title}
                         </Link>
                     </h5>
@@ -23,6 +22,6 @@ const PortfolioItem = ({ portfolio }) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 export default PortfolioItem;

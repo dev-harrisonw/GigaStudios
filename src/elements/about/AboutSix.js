@@ -1,5 +1,4 @@
-import React from 'react';
-import {Link} from "react-router-dom";
+import Link from 'next/link';
 import ProgressbarOne from "../progressbar/ProgressbarOne";
 import SectionTitleTwo from "../sectionTitle/SectionTitleTwo";
 
@@ -19,7 +18,7 @@ const AboutSix = () => {
                                 <span className="theme-gradient subtitle">I have completed 50+ project.</span>
                                 <h4 className="color-white maintitle">Have More Projects Complete in My Carreer Life.</h4>
                                 <div className="read-more-btn">
-                                    <Link className="btn-default btn-border" to="#">View More Projects</Link>
+                                    <Link className="btn-default btn-border" href="#">View More Projects</Link>
                                 </div>
                             </div>
                         </div>
@@ -30,8 +29,8 @@ const AboutSix = () => {
                     <div className="col-lg-12">
                         <div className="rbt-progress-style-1 mt--60">
                             <SectionTitleTwo
-                                Title= "My Working Experience."
-                                textAlign= "text-start mb--40"
+                                Title="My Working Experience."
+                                textAlign="text-start mb--40"
                             />
                             <ProgressbarOne />
                         </div>
@@ -39,7 +38,7 @@ const AboutSix = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default AboutSix
+export default AboutSix;

@@ -1,16 +1,15 @@
-import React from 'react';
-import {Link} from "react-router-dom";
-import CalltoActionSeven from "../../elements/calltoaction/CalltoActionSeven";
+import Link from 'next/link';
+import { FiInstagram, FiLinkedin } from "react-icons/fi";
 import footerOne from "../../data/footer/footerOne.json";
+import CalltoActionSeven from "../../elements/calltoaction/CalltoActionSeven";
 import ScrollTop from "./ScrollTop";
-import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
 
-const footerIntem =  footerOne[0];
-const footerIntemOne =  footerOne[1];
-const footerIntemTwo =  footerOne[2];
-const footerIntemThree =  footerOne[3];
-const footerIntemFour =  footerOne[4];
-const footerIntemFive =  footerOne[5];
+const footerIntem = footerOne[0];
+const footerIntemOne = footerOne[1];
+const footerIntemTwo = footerOne[2];
+const footerIntemThree = footerOne[3];
+const footerIntemFour = footerOne[4];
+const footerIntemFive = footerOne[5];
 
 
 const indexOneLink = (footerIntemOne.quicklink);
@@ -32,7 +31,7 @@ const FooterTwo = () => {
                                     <div className="inner">
                                         <ul className="footer-link link-hover">
                                             {indexOneLink.map((data, index) => (
-                                                <li key={index}><Link to={`${data.url}`}>{data.text}</Link></li>
+                                                <li key={index}><Link href={`${data.url}`}>{data.text}</Link></li>
                                             ))}
                                         </ul>
                                     </div>
@@ -48,7 +47,7 @@ const FooterTwo = () => {
                                         <div className="inner">
                                             <ul className="footer-link link-hover">
                                                 {indexThreeLink.map((data, index) => (
-                                                    <li key={index}><Link to={`${data.url}`}>{data.text}</Link></li>
+                                                    <li key={index}><Link href={`${data.url}`}>{data.text}</Link></li>
                                                 ))}
                                             </ul>
                                         </div>
@@ -64,7 +63,7 @@ const FooterTwo = () => {
                                     <div className="inner">
                                         <ul className="footer-link link-hover">
                                             {indexTwoLink.map((data, index) => (
-                                                <li key={index}><Link to={`${data.url}`}>{data.text}</Link></li>
+                                                <li key={index}><Link href={`${data.url}`}>{data.text}</Link></li>
                                             ))}
                                         </ul>
                                     </div>
@@ -79,7 +78,7 @@ const FooterTwo = () => {
                                     <div className="inner">
                                         <ul className="footer-link link-hover">
                                             {indexTwoLink.map((data, index) => (
-                                                <li key={index}><Link to={`${data.url}`}>{data.text}</Link></li>
+                                                <li key={index}><Link href={`${data.url}`}>{data.text}</Link></li>
                                             ))}
                                         </ul>
                                     </div>
@@ -94,8 +93,8 @@ const FooterTwo = () => {
                                     <div className="inner">
                                         <h6 className="subtitle">{footerIntemFive.subtitle}</h6>
                                         <ul className="social-icon social-default justify-content-start">
-                                            <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
-                                            <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                            <li><Link href="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                            <li><Link href="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -107,7 +106,7 @@ const FooterTwo = () => {
             </footer>
             <ScrollTop />
         </>
-    )
-}
+    );
+};
 
 export default FooterTwo;

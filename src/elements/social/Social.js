@@ -1,8 +1,7 @@
-import React from 'react';
-import {Link} from "react-router-dom";
-import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
-import SEO from "../../common/SEO";
+import Link from 'next/link';
+import { FiFacebook, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
 import Layout from "../../common/Layout";
+import SEO from "../../common/SEO";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import Separator from "../separator/Separator";
@@ -14,7 +13,7 @@ const Social = () => {
         <>
             <SEO title="Social Share || GigaStudios - Development Agency" />
             <Layout>
-                <BreadcrumbOne 
+                <BreadcrumbOne
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
                     rootUrl="/"
                     parentUrl="Home"
@@ -26,29 +25,29 @@ const Social = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                        <SectionTitle
-                                            textAlign = "text-center"
-                                            radiusRounded = ""
-                                            subtitle = "Our Social Share"
-                                            title = "You can Customize All."
-                                            description = ""
-                                        />
+                                    <SectionTitle
+                                        textAlign="text-center"
+                                        radiusRounded=""
+                                        subtitle="Our Social Share"
+                                        title="You can Customize All."
+                                        description=""
+                                    />
                                 </div>
                             </div>
                             <div className="row mt--30">
                                 <div className="col-lg-12">
                                     <ul className="social-icon social-default">
-                                        <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                        <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                        <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
-                                        <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                        <li><Link href="facebook.com"><FiFacebook /></Link></li>
+                                        <li><Link href="twitter.com"><FiTwitter /></Link></li>
+                                        <li><Link href="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                        <li><Link href="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* End Elements Area  */}
-                    <Separator />  
+                    <Separator />
 
 
                     {/* Start Elements Area  */}
@@ -56,30 +55,30 @@ const Social = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                        <SectionTitle
-                                            textAlign = "text-center"
-                                            radiusRounded = ""
-                                            subtitle = "Transparent With Border"
-                                            title = "Social Share."
-                                            description = ""
-                                        />
+                                    <SectionTitle
+                                        textAlign="text-center"
+                                        radiusRounded=""
+                                        subtitle="Transparent With Border"
+                                        title="Social Share."
+                                        description=""
+                                    />
                                 </div>
                             </div>
 
                             <div className="row mt--30">
                                 <div className="col-lg-12">
                                     <ul className="social-icon social-default transparent-with-border">
-                                        <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                        <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                        <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
-                                        <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                        <li><Link href="facebook.com"><FiFacebook /></Link></li>
+                                        <li><Link href="twitter.com"><FiTwitter /></Link></li>
+                                        <li><Link href="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                        <li><Link href="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* End Elements Area  */}
-                    <Separator />  
+                    <Separator />
 
 
 
@@ -88,96 +87,96 @@ const Social = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                        <SectionTitle
-                                            textAlign = "text-center"
-                                            radiusRounded = ""
-                                            subtitle = "Gradient Style"
-                                            title = "Social Share."
-                                            description = ""
-                                        />
+                                    <SectionTitle
+                                        textAlign="text-center"
+                                        radiusRounded=""
+                                        subtitle="Gradient Style"
+                                        title="Social Share."
+                                        description=""
+                                    />
                                 </div>
                             </div>
 
                             <div className="row mt--30">
                                 <div className="col-lg-12">
                                     <ul className="social-icon social-default with-gradient">
-                                        <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                        <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                        <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
-                                        <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                        <li><Link href="facebook.com"><FiFacebook /></Link></li>
+                                        <li><Link href="twitter.com"><FiTwitter /></Link></li>
+                                        <li><Link href="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                        <li><Link href="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* End Elements Area  */}
-                    <Separator />  
+                    <Separator />
 
                     {/* Start Elements Area  */}
                     <div className="rwt-social-area rn-section-gap">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                        <SectionTitle
-                                            textAlign = "text-center"
-                                            radiusRounded = ""
-                                            subtitle = "Bg Primary Color"
-                                            title = "Social Share."
-                                            description = ""
-                                        />
+                                    <SectionTitle
+                                        textAlign="text-center"
+                                        radiusRounded=""
+                                        subtitle="Bg Primary Color"
+                                        title="Social Share."
+                                        description=""
+                                    />
                                 </div>
                             </div>
 
                             <div className="row mt--30">
                                 <div className="col-lg-12">
                                     <ul className="social-icon social-default with-bg-primary">
-                                        <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                        <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                        <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
-                                        <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                        <li><Link href="facebook.com"><FiFacebook /></Link></li>
+                                        <li><Link href="twitter.com"><FiTwitter /></Link></li>
+                                        <li><Link href="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                        <li><Link href="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* End Elements Area  */}
-                    <Separator />  
+                    <Separator />
 
                     {/* Start Elements Area  */}
                     <div className="rwt-social-area rn-section-gap">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                        <SectionTitle
-                                            textAlign = "text-center"
-                                            radiusRounded = ""
-                                            subtitle = "Bg Primary Color"
-                                            title = "Social Share."
-                                            description = ""
-                                        />
+                                    <SectionTitle
+                                        textAlign="text-center"
+                                        radiusRounded=""
+                                        subtitle="Bg Primary Color"
+                                        title="Social Share."
+                                        description=""
+                                    />
                                 </div>
                             </div>
 
                             <div className="row mt--30">
                                 <div className="col-lg-12">
                                     <ul className="social-icon social-default icon-naked">
-                                        <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                        <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                        <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
-                                        <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                        <li><Link href="facebook.com"><FiFacebook /></Link></li>
+                                        <li><Link href="twitter.com"><FiTwitter /></Link></li>
+                                        <li><Link href="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                        <li><Link href="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* End Elements Area  */}
-                    <Separator />  
+                    <Separator />
 
 
 
                 </div>
             </Layout>
         </>
-    )
-}
+    );
+};
 export default Social;

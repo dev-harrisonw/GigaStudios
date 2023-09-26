@@ -1,7 +1,6 @@
-import React from 'react';
-import Typed from 'react-typed';
-import {Link} from "react-router-dom";
+import Link from 'next/link';
 import { FiArrowRight } from "react-icons/fi";
+import Typed from 'react-typed';
 import AccordionOne from '../accordion/AccordionOne';
 
 const mission = () => {
@@ -29,7 +28,7 @@ const mission = () => {
                             <p>Consectetur adipisicing elit. Quia quaerat dolore laboriosam ea minus dignissimos, laudantium odit officia soluta, et deleniti fugit deserunt saepe, velit sapiente obcaecati? Vitae, iusto delectus?</p>
 
                             <div className="read-more-btn mt--50">
-                                <Link className="btn-default btn-icon" to="#">Learn More <i className="icon"><FiArrowRight /></i></Link>
+                                <Link className="btn-default btn-icon" href="#">Learn More <i className="icon"><FiArrowRight /></i></Link>
                             </div>
                         </div>
                     </div>
@@ -37,8 +36,8 @@ const mission = () => {
                         <AccordionOne customStyle="" />
                     </div>
                 </div>
-            </div>                        
+            </div>
         </div>
-    )
-}
+    );
+};
 export default mission;

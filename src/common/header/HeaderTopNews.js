@@ -1,10 +1,10 @@
-import {useState} from "react";
-import { FiX , FiArrowRight} from "react-icons/fi";
+import { useState } from "react";
+import { FiArrowRight, FiX } from "react-icons/fi";
 
 const HeaderTopNews = () => {
     const [deactive, setClass] = useState('');
     return (
-        <div className={`header-top-news bg_image ${deactive}`}  style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/top-banner.png)`}}>
+        <div className={`header-top-news bg_image ${deactive}`} style={{ backgroundImage: `url(${process.env.NEXT_PUBLIC_URL}/images/bg/top-banner.png)` }}>
             <div className="wrapper">
                 <div className="container">
                     <div className="row">
@@ -26,7 +26,7 @@ const HeaderTopNews = () => {
                 <button className="close-button" onClick={() => setClass('deactive')}><FiX /></button>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default HeaderTopNews;

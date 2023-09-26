@@ -1,7 +1,8 @@
-import Typed from 'react-typed';
-import React from 'react';
-import VideoTwo from '../video/VideoTwo';
+'use client';
+
 import { FiCheck } from "react-icons/fi";
+import ReactTyped from 'react-typed';
+import VideoTwo from '../video/VideoTwo';
 
 
 const PopupData = [
@@ -12,9 +13,9 @@ const PopupData = [
             'https://www.youtube.com/watch?v=',
         ],
     }
-]
+];
 
-const AboutFour = ({image}) => {
+const AboutFour = ({ image }) => {
     return (
         <div className="about-area about-style-4 rn-section-gap">
             <div className="container">
@@ -30,18 +31,18 @@ const AboutFour = ({image}) => {
                         <div className="content">
                             <div className="inner">
                                 <h3 className="title">We specialize in <br />
-                                        <span className="title theme-gradient"><Typed
-                                            strings={[
-                                                "Web Development.",
-                                                "App Development.",
-                                                "Bespoke Development.",
-                                                "Maintenance & Support",
-                                            ]}
-                                            typeSpeed={80}
-                                            backSpeed={5}
-                                            backDelay={1000}
-                                            loop
-                                        /></span></h3>
+                                    <span className="title theme-gradient"><ReactTyped
+                                        strings={[
+                                            "Web Development.",
+                                            "App Development.",
+                                            "Bespoke Development.",
+                                            "Maintenance & Support",
+                                        ]}
+                                        typeSpeed={80}
+                                        backSpeed={5}
+                                        backDelay={1000}
+                                        loop
+                                    /></span></h3>
                                 <ul className="feature-list">
                                     <li>
                                         <div className="icon">
@@ -71,7 +72,7 @@ const AboutFour = ({image}) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default AboutFour
+export default AboutFour;

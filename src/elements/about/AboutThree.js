@@ -1,10 +1,7 @@
-import React from 'react';
-import {Link} from "react-router-dom";
-import { FiArrowRight } from "react-icons/fi";
 import AccordionOne from '../accordion/AccordionOne';
-import ScrollAnimation from "react-animate-on-scroll";
+;
 
-const AbouThree = () => {
+const AboutThree = () => {
     return (
         <div className="rn-about-area about-style-3 rn-section-gap">
             <div className="container">
@@ -26,9 +23,9 @@ const AbouThree = () => {
                         </div>
                     </div>
                 </div>
-            </div>                        
+            </div>
         </div>
-    )
-}
+    );
+};
 
-export default AbouThree
+export default AboutThree;

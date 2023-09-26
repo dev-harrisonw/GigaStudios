@@ -1,10 +1,11 @@
-import React from 'react';
-import { FiGlobe } from "react-icons/fi";
+'use client';
+
+import Link from 'next/link';
+import ScrollAnimation from "react-animate-on-scroll";
 import { AiOutlineMobile } from "react-icons/ai";
 import { BiBrain } from "react-icons/bi";
+import { FiGlobe } from "react-icons/fi";
 import { ImCogs } from "react-icons/im";
-import {Link} from "react-router-dom";
-import ScrollAnimation from "react-animate-on-scroll";
 
 const ServiceList = [
     {
@@ -27,30 +28,30 @@ const ServiceList = [
         title: 'Maintenace',
         description: 'Ensure that your website or application is always running smoothly with our comprehensive maintenance.'
     },
-]
+];
 
-const ServiceOne = ({textAlign, serviceStyle}) => {
+const ServiceOne = ({ textAlign, serviceStyle }) => {
     return (
         <div className="row row--15 service-wrapper">
-              {ServiceList.map( (val , i) => (
+            {ServiceList.map((val, i) => (
                 <div className="col-lg-3 col-md-6 col-sm-6 col-12" key={i}>
-                    <ScrollAnimation 
-                    animateIn="fadeInUp"
-                    animateOut="fadeInOut"
-                    animateOnce={true}>
+                    <ScrollAnimation
+                        animateIn="fadeInUp"
+                        animateOut="fadeInOut"
+                        animateOnce={true}>
                         <div className={`service ${serviceStyle} ${textAlign}`}>
                             <div className="icon">
                                 {val.icon}
                             </div>
                             <div className="content">
-                                <h4 className="title w-600"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
-                                <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
+                                <h4 className="title w-600"><Link href="#service" dangerouslySetInnerHTML={{ __html: val.title }}></Link></h4>
+                                <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{ __html: val.description }}></p>
                             </div>
                         </div>
                     </ScrollAnimation>
                 </div>
             ))}
         </div>
-    )
-}
+    );
+};
 export default ServiceOne;

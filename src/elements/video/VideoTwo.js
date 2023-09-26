@@ -1,8 +1,10 @@
-import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
-import { FiPlay, FiZoomIn , FiFolderPlus} from "react-icons/fi";
+'use client';
 
-function VideoTwo({galleryItem , imagename}) {
+import FsLightbox from "fslightbox-react";
+import { useState } from "react";
+import { FiFolderPlus, FiPlay, FiZoomIn } from "react-icons/fi";
+
+function VideoTwo({ galleryItem, imagename }) {
     const { popupLink } = galleryItem;
     const iconHandel = () => {
         if (popupLink) {
@@ -11,16 +13,16 @@ function VideoTwo({galleryItem , imagename}) {
                     return <FiFolderPlus />;
                 }
                 return <FiFolderPlus />;
-              } else if (popupLink.toString().match(/youtube/g)) {
+            } else if (popupLink.toString().match(/youtube/g)) {
                 return <FiPlay />;
-              } else {
+            } else {
                 return <FiZoomIn />;
             }
         }
         else {
             return <FiZoomIn />;
         }
-    }
+    };
     const [toggler, setToggler] = useState(false);
     return (
         <>
@@ -30,16 +32,16 @@ function VideoTwo({galleryItem , imagename}) {
                         <img className="radius-small" src={`${imagename}`} alt="Corporate Image" />
                     </div>
                     <div className="video-icon">
-                        <button className="btn-default rounded-player" onClick={ () => setToggler(!toggler) }><span>{iconHandel()}</span></button>
+                        <button className="btn-default rounded-player" onClick={() => setToggler(!toggler)}><span>{iconHandel()}</span></button>
                     </div>
                 </div>
             </div>
             <div className="video-lightbox-wrapper">
-                <FsLightbox 
-                toggler={ toggler } 
-                sources={popupLink} />
+                <FsLightbox
+                    toggler={toggler}
+                    sources={popupLink} />
             </div>
         </>
-    )
+    );
 }
 export default VideoTwo;

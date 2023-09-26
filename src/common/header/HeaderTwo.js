@@ -1,26 +1,26 @@
-import {useState, useRef} from "react";
+import { useRef, useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import Logo from "../../elements/logo/Logo";
-import Nav from './Nav';
-import MobileMenu from './MobileMenu';
 import Darkmode from "./Darkmode";
+import MobileMenu from './MobileMenu';
+import Nav from './Nav';
 import useStickyHeader from "./useStickyHeader";
 
-const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
+const HeaderTwo = ({ btnStyle, HeaderSTyle }) => {
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
     const onCanvasHandler = () => {
         setOffcanvasShow(prev => !prev);
-    }
+    };
 
 
     const ref = useRef();
     let [check, setCheck] = useState(true);
-    const sticky = useStickyHeader( 50 );
-    const headerClasses = `header-default ${(sticky && check) ? 'sticky' : ''}`
+    const sticky = useStickyHeader(50);
+    const headerClasses = `header-default ${(sticky && check) ? 'sticky' : ''}`;
     const { clientHeight } = ref;
-    
+
     const checkChange = (value) => {
-      setCheck(value);
+        setCheck(value);
     };
 
 
@@ -31,9 +31,9 @@ const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
                     <div className="row align-items-center">
                         <div className="col-lg-9 col-md-6 col-4 position-static">
                             <div className="header-left d-flex">
-                                <Logo 
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                                    image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
+                                <Logo
+                                    image={`${process.env.NEXT_PUBLIC_URL}/images/logo/logo.png`}
+                                    image2={`${process.env.NEXT_PUBLIC_URL}/images/logo/logo-dark.png`}
                                 />
                                 <nav className="mainmenu-nav d-none d-lg-block">
                                     <Nav />
@@ -56,8 +56,8 @@ const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
                     </div>
                 </div>
             </header>
-            <MobileMenu show={ofcanvasShow} onClose={onCanvasHandler}  />
+            <MobileMenu show={ofcanvasShow} onClose={onCanvasHandler} />
         </>
-    )
-}
+    );
+};
 export default HeaderTwo;

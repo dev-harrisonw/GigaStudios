@@ -1,6 +1,7 @@
-import React from 'react';
+'use client';
+
+import Link from 'next/link';
 import ScrollAnimation from "react-animate-on-scroll";
-import {Link} from "react-router-dom";
 import { FiArrowRight, FiCheck } from "react-icons/fi";
 
 const AboutTwo = () => {
@@ -18,18 +19,18 @@ const AboutTwo = () => {
                         <div className="content">
                             <div className="section-title">
 
-                                <ScrollAnimation 
-                                animateIn="fadeInUp"
-                                animateOut="fadeInOut"
-                                animateOnce={true}>
+                                <ScrollAnimation
+                                    animateIn="fadeInUp"
+                                    animateOut="fadeInOut"
+                                    animateOnce={true}>
                                     <h4 className="subtitle"><span className="theme-gradient">Corporate About.</span></h4>
                                     <h2 className="title mt--10">About Our Business.</h2>
                                 </ScrollAnimation>
 
-                                <ScrollAnimation 
-                                animateIn="fadeInUp"
-                                animateOut="fadeInOut"
-                                animateOnce={true}>
+                                <ScrollAnimation
+                                    animateIn="fadeInUp"
+                                    animateOut="fadeInOut"
+                                    animateOnce={true}>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quod autem sequi reprehenderit labore consequuntur excepturi voluptatibus omnis similique qui unde eligendi tempora, ea at, laudantium nostrum minus pariatur quasi!</p>
 
                                     <ul className="list-icon">
@@ -39,21 +40,21 @@ const AboutTwo = () => {
                                         <li><span className="icon"><FiCheck /></span> Your teams progress with mobile app.</li>
                                     </ul>
                                 </ScrollAnimation>
-                                <ScrollAnimation 
-                                animateIn="fadeInUp"
-                                animateOut="fadeInOut"
-                                animateOnce={true}>
+                                <ScrollAnimation
+                                    animateIn="fadeInUp"
+                                    animateOut="fadeInOut"
+                                    animateOnce={true}>
                                     <div className="read-more-btn mt--40">
-                                        <Link className="btn-default btn-icon" to="#">More About Us <i className="icon"><FiArrowRight /></i></Link>
+                                        <Link className="btn-default btn-icon" href="#">More About Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </ScrollAnimation>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
         </div>
-    )
-}
+    );
+};
 
 export default AboutTwo;

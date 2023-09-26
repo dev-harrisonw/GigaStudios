@@ -1,14 +1,13 @@
-import React from 'react';
 
 const callToActionData = {
     title: "Ready to create your digital footprint?",
     subtitle: "Unleash the power of the web today",
     btnText: "Enquire Now",
-}
+};
 
 const CalltoActionThree = () => {
     return (
-        <div className="rn-callto-action clltoaction-style-default style-3 bg_image"  style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-2.jpg)`}}>
+        <div className="rn-callto-action clltoaction-style-default style-3 bg_image" style={{ backgroundImage: `url(${process.env.NEXT_PUBLIC_URL}/images/bg/bg-image-2.jpg)` }}>
             <div className="container">
                 <div className="row row--0 align-items-center content-wrapper">
                     <div className="col-lg-8">
@@ -27,6 +26,6 @@ const CalltoActionThree = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 export default CalltoActionThree;

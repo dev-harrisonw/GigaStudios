@@ -1,15 +1,14 @@
-import React from 'react';
 import { FiArrowRight } from "react-icons/fi";
 
 const callToActionData = {
     title: "Ready to create your digital footprint?",
     subtitle: "Unleash the power of the web today",
     btnText: "Enquire Now",
-}
+};
 
 const CalltoActionTwo = () => {
     return (
-        <div className="rn-callto-action clltoaction-style-default style-2 bg_image bg_image_fixed"  style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-1.jpg)`}} data-black-overlay="8">
+        <div className="rn-callto-action clltoaction-style-default style-2 bg_image bg_image_fixed" style={{ backgroundImage: `url(${process.env.NEXT_PUBLIC_URL}/images/bg/bg-image-1.jpg)` }} data-black-overlay="8">
             <div className="container">
                 <div className="row row--30 align-items-center">
                     <div className="col-lg-10 offset-lg-1">
@@ -26,6 +25,6 @@ const CalltoActionTwo = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 export default CalltoActionTwo;

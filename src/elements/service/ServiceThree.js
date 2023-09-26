@@ -1,5 +1,7 @@
-import React from 'react';
-import {Link} from "react-router-dom";
+'use client';
+
+
+import Link from 'next/link';
 import ScrollAnimation from "react-animate-on-scroll";
 
 const ServiceList = [
@@ -18,24 +20,24 @@ const ServiceList = [
         title: 'App Development',
         description: 'Variations There are many of pass ages of Lorem Ipsum available, but the majority but the majority.'
     }
-]
-const ServiceThree = ({textAlign, serviceStyle}) => {
+];
+const ServiceThree = ({ textAlign, serviceStyle }) => {
     return (
         <div className="row row--15 service-wrapper">
-              {ServiceList.map( (val , i) => (
+            {ServiceList.map((val, i) => (
                 <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                    <ScrollAnimation 
-                    animateIn="fadeInUp"
-                    animateOut="fadeInOut"
-                    animateOnce={true}>
+                    <ScrollAnimation
+                        animateIn="fadeInUp"
+                        animateOut="fadeInOut"
+                        animateOnce={true}>
                         <div className={`service ${serviceStyle} ${textAlign}`}>
                             <div className="inner">
                                 <div className="image">
                                     <img src={`${val.image}`} alt="card Images" />
                                 </div>
                                 <div className="content">
-                                    <h4 className="title"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
-                                    <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
+                                    <h4 className="title"><Link href="#service" dangerouslySetInnerHTML={{ __html: val.title }}></Link></h4>
+                                    <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{ __html: val.description }}></p>
                                 </div>
                             </div>
                         </div>
@@ -43,6 +45,6 @@ const ServiceThree = ({textAlign, serviceStyle}) => {
                 </div>
             ))}
         </div>
-    )
-}
+    );
+};
 export default ServiceThree;

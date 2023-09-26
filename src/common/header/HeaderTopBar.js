@@ -1,6 +1,6 @@
-import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin, FiChevronRight, FiMapPin, FiPhone } from "react-icons/fi";
-import { Link } from 'react-router-dom'
+import Link from 'next/link';
+import { FiChevronRight, FiFacebook, FiInstagram, FiLinkedin, FiMapPin, FiPhone, FiTwitter } from "react-icons/fi";
+
 
 const HeaderTopBar = () => {
     return (
@@ -20,10 +20,10 @@ const HeaderTopBar = () => {
                             </div>
                             <div className="social-icon-wrapper">
                                 <ul className="social-icon social-default icon-naked">
-                                    <li><Link to="twitter.com"><FiFacebook /></Link></li>
-                                    <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                    <li><Link to="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
-                                    <li><Link to="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
+                                    <li><Link href="twitter.com"><FiFacebook /></Link></li>
+                                    <li><Link href="twitter.com"><FiTwitter /></Link></li>
+                                    <li><Link href="https://www.instagram.com/gigastudiosltd"><FiInstagram /></Link></li>
+                                    <li><Link href="https://www.linkedin.com/company/gigastudios/"><FiLinkedin /></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ const HeaderTopBar = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default HeaderTopBar;

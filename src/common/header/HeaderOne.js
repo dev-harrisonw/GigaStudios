@@ -1,25 +1,29 @@
-import {useState, useRef} from "react";
+'use client';
+
+import { useRef, useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import Logo from "../../elements/logo/Logo";
-import Nav from './Nav';
-import MobileMenu from './MobileMenu';
 import Darkmode from "./Darkmode";
+import MobileMenu from './MobileMenu';
+import Nav from './Nav';
 import useStickyHeader from "./useStickyHeader";
 
 
-const HeaderOne = ({btnStyle, HeaderSTyle}) => {
+const HeaderOne = ({ btnStyle, HeaderSTyle }) => {
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
     const onCanvasHandler = () => {
         setOffcanvasShow(prev => !prev);
-    }
+    };
     const ref = useRef();
     let [check, setCheck] = useState(true);
-    const sticky = useStickyHeader( 50 );
-    const headerClasses = `header-default ${(sticky && check) ? 'sticky' : ''}`
+    const sticky = useStickyHeader(50);
+    const headerClasses = `header-default ${(sticky && check) ? 'sticky' : ''}`;
     const { clientHeight } = ref;
-    
+
+
+
     const checkChange = (value) => {
-      setCheck(value);
+        setCheck(value);
     };
     return (
         <>
@@ -27,9 +31,9 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                 <div className="container position-relative">
                     <div className="row align-items-center row--0">
                         <div className="col-lg-3 col-md-6 col-4">
-                            <Logo 
-                                image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                                image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
+                            <Logo
+                                image={`/images/logo/logo.png`}
+                                image2={`/images/logo/logo-dark.png`}
                             />
                         </div>
                         <div className="col-lg-9 col-md-6 col-8 position-static">
@@ -46,13 +50,13 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                     </div>
                                 </div>
                                 <Darkmode />
-                            </div>  
+                            </div>
                         </div>
                     </div>
                 </div>
             </header>
-            <MobileMenu show={ofcanvasShow} onClose={onCanvasHandler}  />
+            <MobileMenu show={ofcanvasShow} onClose={onCanvasHandler} />
         </>
-    )
-}
+    );
+};
 export default HeaderOne;
