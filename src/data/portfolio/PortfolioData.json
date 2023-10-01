@@ -1,6 +1,42 @@
 [
     {
         "id": 1,
+        "portfolioImage": "./images/portfolio/mpj.jpg",
+        "image": "images/portfolio/mpj.jpg",
+        "title": "MPJ Recruitment",
+        "subtitle": "Applicant Management Platform",
+        "date": "17 August 2023",
+        "client": "MPJ Recruitment",
+        "category": "website",
+        "awards": [],
+        "excerpt": "",
+        "body": ["<p>The MPJ Recruitment Platform is a dynamic and user-centric web application designed to revolutionize the recruitment process for job seekers and employers. Leveraging cutting-edge technologies, the platform facilitates seamless job searching, application management, and recruitment progress tracking.</p>"],
+        "btn": {
+            "buttontext": "View Project",
+            "link": "https://www.mpjrecruitment.co.uk/"
+        },
+        "largeImage": "images/portfolio/mpj.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/mpj-01.jpg",
+            "imageTwo": "images/portfolio/mpj-02.jpg",
+            "imageThree": "images/portfolio/mpj-03.jpg"
+        }
+    },
+
+    {
+        "id": 2,
         "portfolioImage": "./images/portfolio/mangc.jpg",
         "image": "images/portfolio/mangc.jpg",
         "title": "Manchester Golf Club",
@@ -36,7 +72,7 @@
     },
 
     {
-        "id": 2,
+        "id": 3,
         "portfolioImage": "./images/portfolio/athol.jpg",
         "image": "images/portfolio/athol.jpg",
         "title": "Athol Paints",
@@ -72,7 +108,7 @@
     },
     
     {
-        "id": 3,
+        "id": 4,
         "portfolioImage": "./images/portfolio/portfolio.jpg",
         "image": "images/portfolio/portfolio.jpg",
         "title": "Portfolio Website",
@@ -108,7 +144,7 @@
     },
 
     {
-        "id": 4,
+        "id": 5,
         "portfolioImage": "./images/portfolio/bandobaby.jpg",
         "image": "images/portfolio/portfolio-02.jpg",
         "title": "Bando Baby",
@@ -144,7 +180,7 @@
     },
 
     {
-        "id": 5,
+        "id": 6,
         "portfolioImage": "./images/portfolio/ai.jpg",
         "image": "images/portfolio/ai.jpg",
         "title": "AI Chatbot",
