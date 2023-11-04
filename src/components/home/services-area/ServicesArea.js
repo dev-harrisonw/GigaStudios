@@ -15,10 +15,10 @@ const ServicesArea = () => {
             />
           </div>
         </div>
-        {/* <ServiceOne
+        <ServiceOne
           serviceStyle="service__style--1 bg-color-blackest radius mt--25"
           textAlign="text-center"
-        /> */}
+        />
       </div>
     </div>
   );
