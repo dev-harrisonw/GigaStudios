@@ -1,4 +1,5 @@
 import SectionTitle from '@/elements/sectionTitle/SectionTitle';
+import ServiceOne from '@/elements/service/ServiceOne';
 
 const ServicesArea = () => {
   return (
