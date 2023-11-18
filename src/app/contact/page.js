@@ -2,7 +2,12 @@ import ContactOne from "@/elements/contact/ContactOne";
 import SectionTitle from "@/elements/sectionTitle/SectionTitle";
 
 export const metadata = {
-  title: 'Contact Us || GigaStudios - Development Studio'
+  title: "Contact GigaStudios | Reach Out for Development Solutions",
+  description:
+    "Have questions or inquiries? Contact GigaStudios for unparalleled development services. Our team is ready to assist you in bringing your digital ideas to life. Get in touch with us today.",
+  alternates: {
+    canonical: "https://www.gigastudios.co.uk/contact",
+  },
 };
 
 const ContactPage = () => {

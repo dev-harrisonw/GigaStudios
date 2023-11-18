@@ -6,12 +6,17 @@ import AboutThree from "@/elements/about/AboutThree";
 import Separator from "@/elements/separator/Separator";
 
 export const metadata = {
-  title: 'Home || GigaStudios - Development Studio'
+  title: "GigaStudios - Your Hub for Exceptional Development Services",
+  description:
+    "Welcome to GigaStudios, where innovation meets expertise. Explore our comprehensive development services, including website, app, and software development. Your journey to digital excellence starts here.",
+  alternates: {
+    canonical: "https://www.gigastudios.co.uk",
+  },
 };
 
 export default function Home() {
   return (
-    <main >
+    <main>
       <SliderArea />
       <Separator />
       <ServicesArea />
