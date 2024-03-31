@@ -1,6 +1,78 @@
 [
     {
         "id": 1,
+        "portfolioImage": "./images/portfolio/kg.jpg",
+        "image": "images/portfolio/kg.jpg",
+        "title": "KeyGeni Group",
+        "subtitle": "Website Development",
+        "date": "17 August 2023",
+        "client": "KeyGeni Group",
+        "category": "website",
+        "awards": [],
+        "excerpt": "",
+        "body": ["<p>GigaStudios transformed KeyGeni Group's vision into a sleek, fully-functional website, leveraging WordPress's versatility and a curated selection of plugins. Our development process, from conceptualization to realization, remained meticulously within the client's budgetary constraints. The website presents a clear depiction of KeyGeni's corporate ethos and service spectrum, ensuring a seamless user journey. This project stands as a testament to GigaStudios' commitment to delivering high-caliber digital solutions that encapsulate our clients' objectives without compromising on financial parameters.</p>"],
+        "btn": {
+            "buttontext": "View Project",
+            "link": "https://www.keygeni.com/"
+        },
+        "largeImage": "images/portfolio/kg.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/kg-01.jpg",
+            "imageTwo": "images/portfolio/kg-02.jpg",
+            "imageThree": "images/portfolio/kg-03.jpg"
+        }
+    },
+
+    {
+        "id": 2,
+        "portfolioImage": "./images/portfolio/tse.jpg",
+        "image": "images/portfolio/tse.jpg",
+        "title": "The Surveying Experts",
+        "subtitle": "Website Development",
+        "date": "17 August 2023",
+        "client": "KeyGeni Group",
+        "category": "website",
+        "awards": [],
+        "excerpt": "",
+        "body": ["<p>The Surveying Experts, a subsidiary of the KeyGeni Group, engaged GigaStudios for the creation of a specialized website to display their industry-leading expertise in surveying. Our deliverable was a WordPress site that captures their comprehensive suite of services with a clean, user-friendly layout. It highlights their 20+ years of market-leading experience and features a broad range of services including bespoke software, drone inspections, and consultancy. The design reflects their commitment to precision and excellence, utilizing a straightforward approach that communicates their professionalism and proficiency in the surveying industry. This project was managed end-to-end by our team, ensuring quality and adherence to the client's budget and timelines.</p>"],
+        "btn": {
+            "buttontext": "View Project",
+            "link": "https://www.thesurveyingexperts.com/"
+        },
+        "largeImage": "images/portfolio/tse.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/tse-01.jpg",
+            "imageTwo": "images/portfolio/tse-02.jpg",
+            "imageThree": "images/portfolio/tse-03.jpg"
+        }
+    },
+
+    {
+        "id": 3,
         "portfolioImage": "./images/portfolio/mpj.jpg",
         "image": "images/portfolio/mpj.jpg",
         "title": "MPJ Recruitment",
@@ -36,7 +108,7 @@
     },
 
     {
-        "id": 2,
+        "id": 4,
         "portfolioImage": "./images/portfolio/mangc.jpg",
         "image": "images/portfolio/mangc.jpg",
         "title": "Manchester Golf Club",
@@ -72,7 +144,7 @@
     },
 
     {
-        "id": 3,
+        "id": 5,
         "portfolioImage": "./images/portfolio/athol.jpg",
         "image": "images/portfolio/athol.jpg",
         "title": "Athol Paints",
@@ -108,7 +180,7 @@
     },
     
     {
-        "id": 4,
+        "id": 6,
         "portfolioImage": "./images/portfolio/portfolio.jpg",
         "image": "images/portfolio/portfolio.jpg",
         "title": "Portfolio Website",
@@ -144,7 +216,7 @@
     },
 
     {
-        "id": 5,
+        "id": 7,
         "portfolioImage": "./images/portfolio/bandobaby.jpg",
         "image": "images/portfolio/portfolio-02.jpg",
         "title": "Bando Baby",
@@ -180,7 +252,7 @@
     },
 
     {
-        "id": 6,
+        "id": 8,
         "portfolioImage": "./images/portfolio/ai.jpg",
         "image": "images/portfolio/ai.jpg",
         "title": "AI Chatbot",
