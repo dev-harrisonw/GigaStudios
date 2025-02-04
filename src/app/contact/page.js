@@ -1,3 +1,4 @@
+// Remove "use client" directive
 import ContactOne from "@/elements/contact/ContactOne";
 import SectionTitle from "@/elements/sectionTitle/SectionTitle";
 import Head from "next/head"; // Import Head for modifying the document head

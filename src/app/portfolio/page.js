@@ -1,9 +1,9 @@
-"use client"; // Ensure this page runs on the client side
+// Remove "use client" directive
 import PortfolioOne from "@/elements/portfolio/PortfolioOne";
 import SectionTitle from "@/elements/sectionTitle/SectionTitle";
-import { promises as fs } from "fs";
 import Head from "next/head"; // Import Head for modifying the document head
 import { useEffect } from "react"; // Import useEffect for tracking page views
+import { promises as fs } from "fs";
 
 export const metadata = {
   title: "GigaStudios Portfolio | Showcasing Development Mastery",
