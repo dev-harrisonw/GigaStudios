@@ -1,7 +1,7 @@
 import { FaSistrix } from "react-icons/fa";
 
 export const metadata = {
-  title: 'Coming Soon || GigaStudios - Development Studio'
+  title: 'Coming Soon | GigaStudios - Development Studio'
 };
 
 const ComingSoon = () => {

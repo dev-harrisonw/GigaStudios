@@ -4,7 +4,7 @@ import SectionTitle from "@/elements/sectionTitle/SectionTitle";
 import { promises as fs } from "fs";
 
 export const metadata = {
-  title: "GigaStudios Portfolio - Showcasing Development Mastery",
+  title: "GigaStudios Portfolio | Showcasing Development Mastery",
   description:
     "Explore GigaStudios' portfolio, a testament to our prowess in website, app, and software development. Dive into a collection of projects that reflect our commitment to delivering cutting-edge digital solutions.",
   alternates: {
