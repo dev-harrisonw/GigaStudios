@@ -4,6 +4,7 @@ import ServicesArea from "@/components/home/services-area/ServicesArea";
 import SliderArea from "@/components/home/slider-area/SliderArea";
 import AboutThree from "@/elements/about/AboutThree";
 import Separator from "@/elements/separator/Separator";
+import SEO from "../../common/SEO";
 
 export const metadata = {
   title: "GigaStudios - Your Hub for Exceptional Development Services",
@@ -17,6 +18,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main>
+      <SEO />
       <SliderArea />
       <Separator />
       <ServicesArea />
