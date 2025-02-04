@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           {/* Google Analytics Global Site Tag */}
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=YOUR_GA_TRACKING_ID`}
+            src={`https://www.googletagmanager.com/gtag/js?id=G-RQ96RJ4M5S`}
           ></script>
           <script>
             {`
@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'YOUR_GA_TRACKING_ID');
+              gtag('config', 'G-RQ96RJ4M5S');
             `}
           </script>
         </Head>
