@@ -1,3 +1,4 @@
+import Script from "next/script";
 import BrandArea from "@/components/home/brand-area/BrandArea";
 import PortfolioArea from "@/components/home/portfolio-area/PortfolioArea";
 import ServicesArea from "@/components/home/services-area/ServicesArea";
@@ -17,6 +18,22 @@ export const metadata = {
 export default function Home() {
   return (
     <main>
+      {/* Google Analytics Tracking */}
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-RQ96RJ4M5S"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RQ96RJ4M5S', {
+            page_path: window.location.pathname,
+          });
+        `}
+      </Script>
+
       <SliderArea />
       <Separator />
       <ServicesArea />

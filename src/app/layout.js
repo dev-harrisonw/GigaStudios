@@ -2,7 +2,6 @@ import FooterThree from "@/common/footer/FooterThree";
 import HeaderOne from "@/common/header/HeaderOne";
 import HeaderTopBar from "@/common/header/HeaderTopBar";
 import "../assets/scss/style.scss";
-import Head from "next/head"; // Import the Head component from Next.js
 
 export const metadata = {
   title: "GigaStudios - Development Studio",
@@ -31,24 +30,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <Head>
-          {/* Google Analytics Global Site Tag */}
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-RQ96RJ4M5S`}
-          ></script>
-          <script>
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-RQ96RJ4M5S');
-            `}
-          </script>
-        </Head>
-      </head>
       <body>
         <HeaderTopBar />
         <HeaderOne
