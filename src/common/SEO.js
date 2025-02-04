@@ -14,6 +14,14 @@ const SEO = ( {title} ) => {
             <meta name="author" content="Harrison Warburton" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
             <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"></link>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQ96RJ4M5S"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-RQ96RJ4M5S');
+            </script>
         </>
     )
 }
